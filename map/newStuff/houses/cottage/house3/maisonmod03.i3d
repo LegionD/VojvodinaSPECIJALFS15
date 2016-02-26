@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="maisonmod03" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="maisonmod3.dds" relativePath="true"/>
+    <File fileId="2" filename="maisonmod3nor.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="07 - Default" materialId="6" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="maisonmod03.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="maisonmod03" clipDistance="200" nodeId="14" lodDistance="0 40 80">
+      <Shape shapeId="1" name="maismod03L1" translation="0.0001065 2.92971 0" nodeId="15" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="maismod03L2" translation="0.0001065 2.93 0" nodeId="16" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="maismod03L3" translation="0.0001065 2.93 0" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

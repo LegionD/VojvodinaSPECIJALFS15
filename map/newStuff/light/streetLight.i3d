@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="unna" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="texture/Lichtstrahl.dds" relativePath="true"/>
+    <File fileId="1" filename="texture/Textur_Straesenlampe_liegend.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="Textur_Straesenlampe_liegend" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="Lichtstrahl" materialId="8" ambientColor="1 1 1" alphaBlending="true">
+      <Texture fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="streetLight.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="streetLight" translation="111.791 0.00158969 -98.9598" rotation="-180 90 -180" static="true" clipDistance="250" nodeId="18" materialIds="7" castsShadows="true" receiveShadows="true">
+      <TransformGroup name="Nachtlicht" clipDistance="300" nodeId="19">
+        <Shape shapeId="2" name="nicht_leuchtend" clipDistance="100" nodeId="20" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="leuchtend" visibility="false" clipDistance="100" nodeId="21" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="4" name="Lichtstrahl" clipDistance="100" nodeId="22" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Light name="light" translation="-0.340029 4.98917 4.975e-010" rotation="-90 -7.41181e-007 -12" clipDistance="100" nodeId="23" type="spot" diffuseColor="1 1 1" emitDiffuse="true" specularColor="1 1 1" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="500" coneAngle="30" dropOff="5"/>
+        </Shape>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="19">
+      <Attribute name="onCreate" type="scriptCallback" value="Nightlight.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

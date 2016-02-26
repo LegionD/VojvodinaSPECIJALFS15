@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="mbzhpier02" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="mpierbzh11.dds" relativePath="true"/>
+    <File fileId="2" filename="mpierbzh11_Normal.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="05 - Default" materialId="6" ambientColor="0.588235 0.588235 0.588235">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="mbzhpier02.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="maisonbzhp2" translation="0 3.53816 0.150733" static="true" compound="true" clipDistance="200" nodeId="14" lodDistance="0 40 80">
+      <Shape shapeId="1" name="maisonbzhP" translation="0 -0.0005699 0" static="true" nodeId="15" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="maisonbzhP01" translation="0 -0.000156 0" static="true" nodeId="16" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="maisonbzhP02" translation="0 -0.0001541 0" static="true" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

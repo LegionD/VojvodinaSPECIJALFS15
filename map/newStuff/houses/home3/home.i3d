@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="map01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="texture/lm7.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Lm8" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="home.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="home3" translation="-77.1323 109.944 -164.895" rotation="0 -0 -1.5034e-007" scale="0.9 0.9 0.9" static="true" clipDistance="500" nodeId="10" materialIds="6" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

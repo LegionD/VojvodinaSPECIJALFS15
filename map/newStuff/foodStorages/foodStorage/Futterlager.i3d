@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="map01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="31" filename="Textur/Ablade_chaff_deffuse.png" relativePath="true"/>
+    <File fileId="28" filename="Textur/Ablade_forage_deffuse.png" relativePath="true"/>
+    <File fileId="37" filename="Textur/Ablade_grass_deffuse.png" relativePath="true"/>
+    <File fileId="23" filename="Textur/Ablade_potato_deffuse.png" relativePath="true"/>
+    <File fileId="34" filename="Textur/Ablade_silage_deffuse.png" relativePath="true"/>
+    <File fileId="12" filename="Textur/Ablade_sugarBeet_deffuse.png" relativePath="true"/>
+    <File fileId="40" filename="Textur/Ablade_wheat_windrow_deffuse.png" relativePath="true"/>
+    <File fileId="18" filename="Textur/Ablade_woodShips_deffuse.png" relativePath="true"/>
+    <File fileId="30" filename="Textur/Schild_Chaff.dds" relativePath="true"/>
+    <File fileId="36" filename="Textur/Schild_Grass.dds" relativePath="true"/>
+    <File fileId="33" filename="Textur/Schild_Silage.dds" relativePath="true"/>
+    <File fileId="27" filename="Textur/Schild_forage.dds" relativePath="true"/>
+    <File fileId="22" filename="Textur/Schild_potato.dds" relativePath="true"/>
+    <File fileId="11" filename="Textur/Schild_sugarBeet.dds" relativePath="true"/>
+    <File fileId="39" filename="Textur/Schild_wheat_windrow.dds" relativePath="true"/>
+    <File fileId="17" filename="Textur/Schild_woodChips.dds" relativePath="true"/>
+    <File fileId="25" filename="Textur/alphaTestDisableShader.xml" relativePath="true"/>
+    <File fileId="24" filename="Textur/asphalt_diffuse.dds" relativePath="true"/>
+    <File fileId="4" filename="Textur/bga_diffuse.png" relativePath="true"/>
+    <File fileId="5" filename="Textur/bga_normal.png" relativePath="true"/>
+    <File fileId="6" filename="Textur/bga_specular.png" relativePath="true"/>
+    <File fileId="29" filename="Textur/chaff_diffuse.png" relativePath="true"/>
+    <File fileId="26" filename="Textur/forage_diffuse.png" relativePath="true"/>
+    <File fileId="35" filename="Textur/grass_diffuse.png" relativePath="true"/>
+    <File fileId="19" filename="Textur/potatoes_diffuse.png" relativePath="true"/>
+    <File fileId="20" filename="Textur/potatoes_normal.png" relativePath="true"/>
+    <File fileId="21" filename="Textur/potatoes_specular.png" relativePath="true"/>
+    <File fileId="1" filename="Textur/shedsAndStables_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="Textur/shedsAndStables_normal.png" relativePath="true"/>
+    <File fileId="3" filename="Textur/shedsAndStables_specular.png" relativePath="true"/>
+    <File fileId="32" filename="Textur/silage_diffuse.png" relativePath="true"/>
+    <File fileId="7" filename="Textur/sugarBeets_diffuse.png" relativePath="true"/>
+    <File fileId="8" filename="Textur/sugarBeets_normal.png" relativePath="true"/>
+    <File fileId="9" filename="Textur/sugarBeets_specular.png" relativePath="true"/>
+    <File fileId="13" filename="Textur/unloadPitAlpha_diffuse.png" relativePath="true"/>
+    <File fileId="38" filename="Textur/wheat_windrow_diffuse.png" relativePath="true"/>
+    <File fileId="14" filename="Textur/woodChips_diffuse.png" relativePath="true"/>
+    <File fileId="15" filename="Textur/woodChips_normal.png" relativePath="true"/>
+    <File fileId="16" filename="Textur/woodChips_specular.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="15" ambientColor="1 1 1" customShaderId="25">
+      <Texture fileId="24"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+    </Material>
+    <Material name="shedsAndStables_mat" materialId="16" ambientColor="1 1 1" cosPower="80" specularColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="file1Material" materialId="17" ambientColor="1 1 1">
+      <Texture fileId="33"/>
+      <Normalmap fileId="33"/>
+    </Material>
+    <Material name="sugarBeet_mat" materialId="18" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="35"/>
+      <Normalmap fileId="35"/>
+      <Glossmap fileId="35"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="19" ambientColor="1 1 1">
+      <Texture fileId="28"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="20" ambientColor="1 1 1">
+      <Texture fileId="34"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="21" ambientColor="1 1 1">
+      <Texture fileId="37"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="22" ambientColor="1 1 1">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="potato_mat" materialId="23" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="26"/>
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="bga_mat" materialId="24" ambientColor="1 1 1" cosPower="4" specularColor="1 1 1">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5" bumpDepth="0.3"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="gray_mat" materialId="25" diffuseColor="0.584314 0.584314 0.584314 1" ambientColor="0.588235 0.588235 0.588235">
+    </Material>
+    <Material name="file1Material" materialId="26" ambientColor="1 1 1">
+      <Texture fileId="30"/>
+      <Normalmap fileId="30"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="27" ambientColor="1 1 1">
+      <Texture fileId="31"/>
+    </Material>
+    <Material name="file1Material" materialId="28" ambientColor="1 1 1">
+      <Texture fileId="11"/>
+      <Normalmap fileId="11"/>
+    </Material>
+    <Material name="sugarBeet_mat" materialId="29" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="30" ambientColor="1 1 1">
+      <Texture fileId="40"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="23"/>
+    </Material>
+    <Material name="potato_mat" materialId="8" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="29"/>
+      <Normalmap fileId="29"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="file1Material" materialId="9" ambientColor="1 1 1">
+      <Texture fileId="17"/>
+    </Material>
+    <Material name="file1Material" materialId="10" ambientColor="1 1 1">
+      <Texture fileId="22"/>
+      <Normalmap fileId="22"/>
+    </Material>
+    <Material name="file1Material" materialId="11" ambientColor="1 1 1">
+      <Texture fileId="36"/>
+      <Normalmap fileId="36"/>
+    </Material>
+    <Material name="file1Material" materialId="12" ambientColor="1 1 1">
+      <Texture fileId="39"/>
+      <Normalmap fileId="39"/>
+    </Material>
+    <Material name="file1Material" materialId="31" ambientColor="1 1 1">
+      <Texture fileId="27"/>
+      <Normalmap fileId="27"/>
+    </Material>
+    <Material name="unloadPitAlpha_mat" materialId="32" ambientColor="1 1 1" alphaBlending="true">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="potato_mat" materialId="33" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="32"/>
+      <Normalmap fileId="32"/>
+      <Glossmap fileId="32"/>
+    </Material>
+    <Material name="woodChips_mat" materialId="34" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="potato_mat" materialId="35" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="38"/>
+      <Normalmap fileId="38"/>
+      <Glossmap fileId="38"/>
+    </Material>
+    <Material name="unloadPit_mat" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="18"/>
+    </Material>
+    <Material name="potato_mat" materialId="13" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Futterlager.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Futterlager" translation="86.091 148.104 24.6326" rotation="180 90 180" nodeId="55">
+      <TransformGroup name="Lager01" translation="19 0 0" nodeId="56">
+        <Shape shapeId="1" name="Halle01" static="true" clipDistance="500" nodeId="57" materialIds="16" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="Wand" translation="1.31944 0 -5.76745e-008" rotation="0 90 0" scale="0.97 1 0.4" static="true" nodeId="58" materialIds="24" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="SugarBeet" nodeId="59">
+          <Shape shapeId="3" name="sugarBeetHeap" translation="1.45 -3.5 14.0538" rotation="0 -90 0" clipDistance="400" nodeId="60" materialIds="29" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="sugarBeetHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="61" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="sugarBeetHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="62" materialIds="29" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="sugarBeetTipTrigger" translation="-9.5 0 13.8488" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="63" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="64"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="65"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_sugarBeet" translation="-8.8 5.6 14.0262" rotation="0 90 0" static="true" nodeId="66" materialIds="28" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_sugarBeet" translation="-10 -0.051 15.2594" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="67" materialIds="22" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="68" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="WoodChips" nodeId="69">
+          <Shape shapeId="8" name="woodChipsHeap" translation="1.45 -3.5 -13.6501" rotation="0 -90 0" clipDistance="400" nodeId="70" materialIds="34" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="8" name="woodChipsHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="71" materialIds="34" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="8" name="woodChipsHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="72" materialIds="34" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="woodChipsTipTrigger" translation="-9.5 0 -14.1296" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="73" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="74"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="75"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_woodChips" translation="-8.8 5.6 -13.6027" rotation="0 90 0" static="true" nodeId="76" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_woodShips" translation="-10 -0.051 -12.296" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="77" materialIds="6" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="78" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Potato" nodeId="79">
+          <Shape shapeId="3" name="potatoHeap" translation="1.45 -3.5 0.155609" rotation="0 -90 0" clipDistance="400" nodeId="80" materialIds="13" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="potatoHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="81" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="potatoHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="82" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="potatoTipTrigger" translation="-9.5 0 -0.259339" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="83" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="84"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="85"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_potato" translation="-8.8 5.6 -0.0795621" rotation="0 90 0" static="true" nodeId="86" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_Potato" translation="-10 -0.051 1.53358" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="87" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="88" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="9" name="Bodenplatte" translation="-0.452852 -0.14 0" static="true" nodeId="89" materialIds="15" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="9" name="Bodenplatte" translation="-0.452852 -0.14 0" rotation="180 0 180" visibility="false" static="true" nodeId="151" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="Lager02" translation="-19 1.45158e-006 0" rotation="180 0 180" nodeId="90">
+        <Shape shapeId="1" name="Halle01" static="true" clipDistance="500" nodeId="91" materialIds="16" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="Wand" translation="1.31944 0 -5.76745e-008" rotation="0 90 0" scale="0.97 1 0.4" static="true" nodeId="92" materialIds="24" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Forage" nodeId="93">
+          <Shape shapeId="3" name="forageHeap" translation="1.45 -3.5 -13.6568" rotation="0 -90 0" clipDistance="400" nodeId="94" materialIds="23" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="forageHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="95" materialIds="23" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="forageHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="96" materialIds="23" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="forageTipTrigger" translation="-9.5 0 -14.094" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="97" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="98"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="99"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_forage" translation="-8.8 5.6 -13.938" rotation="0 90 0" static="true" nodeId="100" materialIds="31" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_forage" translation="-10 -0.051 -12.3435" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="101" materialIds="19" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="102" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Chaff" nodeId="103">
+          <Shape shapeId="3" name="chaffHeap" translation="1.45 -3.5 0.0624776" rotation="0 -90 0" clipDistance="400" nodeId="104" materialIds="8" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="chaffHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="105" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="chaffHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="106" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="chaffTipTrigger" translation="-9.5 0 -0.454591" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="107" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="108"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="109"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_Chaff" translation="-8.8 5.6 -0.114799" rotation="0 90 0" static="true" nodeId="110" materialIds="26" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_chaff" translation="-10 -0.051 1.5562" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="111" materialIds="27" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="112" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="9" name="Bodenplatte" translation="-0.452852 -0.14 0" static="true" nodeId="113" materialIds="15" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="9" name="Bodenplatte" translation="-0.452852 -0.14 0" rotation="180 0 180" visibility="false" static="true" nodeId="153" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="Lager03" translation="-1.71704e-006 7.49282e-027 39.2812" rotation="3.97409e-026 -90 -2.50028e-019" nodeId="114">
+        <Shape shapeId="1" name="Halle01" static="true" clipDistance="500" nodeId="115" materialIds="16" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="Wand" translation="1.31944 0 -5.76745e-008" rotation="0 90 0" scale="0.97 1 0.4" static="true" nodeId="116" materialIds="24" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Silage" nodeId="117">
+          <Shape shapeId="3" name="silageHeap" translation="1.45 -3.5 -0.15607" rotation="0 -90 0" clipDistance="400" nodeId="118" materialIds="33" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="silageHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="119" materialIds="33" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="silageHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="120" materialIds="33" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="silageTipTrigger" translation="-9.5 0 0.134993" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="121" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="122"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="123"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_Silage" translation="-8.8 5.6 0.0181494" rotation="0 90 0" static="true" nodeId="124" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_silage" translation="-10 -0.051 1.53131" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="125" materialIds="20" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="126" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Grass" nodeId="127">
+          <Shape shapeId="3" name="grassHeap" translation="1.45 -3.5 -13.616" rotation="0 -90 0" clipDistance="400" nodeId="128" materialIds="18" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="grassHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="129" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="grassHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="130" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="grassTipTrigger" translation="-9.5 0 -14.065" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="131" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="132"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="133"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_Grass" translation="-8.8 5.6 -13.9028" rotation="0 90 0" static="true" nodeId="134" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_grass" translation="-10 -0.051 -12.3243" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="135" materialIds="21" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="136" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="wheat_windrow" nodeId="137">
+          <Shape shapeId="3" name="wheat_windrowHeap" translation="1.45 -3.5 13.3302" rotation="0 -90 0" clipDistance="400" nodeId="138" materialIds="35" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="forageHeapShovelTrigger" translation="0 0.2 0" kinematic="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="139" materialIds="35" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="3" name="forageHeapCol" translation="0 -0.3 0" kinematic="true" clipDistance="400" nodeId="140" materialIds="35" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="4" name="strowTipTrigger" translation="-9.5 0 14.0088" rotation="0 90 0" scale="1 1 2" static="true" trigger="true" collisionMask="8388608" nodeId="141" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 1.4" nodeId="142"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -1.4" nodeId="143"/>
+          </Shape>
+          <Shape shapeId="5" name="Schild_wheat_windrow" translation="-8.8 5.6 13.7075" rotation="0 90 0" static="true" nodeId="144" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="Ablade_wheat_windrow" translation="-10 -0.051 15.242" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="145" materialIds="30" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="unloadPitGrating" clipDistance="300" nodeId="146" materialIds="32" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="9" name="Bodenplatte" translation="-0.452852 -0.14 0" static="true" nodeId="147" materialIds="15" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="9" name="Bodenplatte" translation="-0.452852 -0.14 0" rotation="180 0 180" visibility="false" static="true" nodeId="152" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <Camera name="persp" translation="95.8698 195.736 30.7405" rotation="-77.0652 -6.7782 -6.71705e-008" nodeId="148" fov="54.4322" nearClip="0.1" farClip="10000"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="141">
+      <Attribute name="fillTypes" type="string" value="wheat_windrow"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="104">
+      <Attribute name="fillType" type="string" value="chaff"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="105">
+      <Attribute name="fillType" type="string" value="chaff"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="106">
+      <Attribute name="fillTypes" type="string" value="chaff"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="107">
+      <Attribute name="fillTypes" type="string" value="chaff"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="118">
+      <Attribute name="fillType" type="string" value="silage"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="119">
+      <Attribute name="fillType" type="string" value="silage"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="120">
+      <Attribute name="fillTypes" type="string" value="silage"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="121">
+      <Attribute name="fillTypes" type="string" value="silage"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="128">
+      <Attribute name="fillType" type="string" value="grass_windrow"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="129">
+      <Attribute name="fillType" type="string" value="grass_windrow"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="130">
+      <Attribute name="fillTypes" type="string" value="grass_windrow"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="131">
+      <Attribute name="fillTypes" type="string" value="grass_windrow"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="138">
+      <Attribute name="fillType" type="string" value="forage"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="139">
+      <Attribute name="fillType" type="string" value="forage"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="140">
+      <Attribute name="fillTypes" type="string" value="forage"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="60">
+      <Attribute name="fillType" type="string" value="sugarBeet"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="61">
+      <Attribute name="fillType" type="string" value="sugarBeet"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="62">
+      <Attribute name="fillTypes" type="string" value="sugarBeet"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="63">
+      <Attribute name="fillTypes" type="string" value="sugarBeet"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="70">
+      <Attribute name="fillType" type="string" value="woodChips"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="71">
+      <Attribute name="fillType" type="string" value="woodChips"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="72">
+      <Attribute name="fillTypes" type="string" value="woodChips"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="73">
+      <Attribute name="fillTypes" type="string" value="woodChips"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="80">
+      <Attribute name="fillType" type="string" value="potato"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="81">
+      <Attribute name="fillType" type="string" value="potato"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="82">
+      <Attribute name="fillTypes" type="string" value="potato"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="83">
+      <Attribute name="fillTypes" type="string" value="potato"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+    <UserAttribute nodeId="94">
+      <Attribute name="fillType" type="string" value="forage"/>
+      <Attribute name="moveMaxAmount" type="integer" value="60000"/>
+      <Attribute name="moveMinMaxY" type="string" value="-3.65 0"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloAmountMover.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="95">
+      <Attribute name="fillType" type="string" value="forage"/>
+      <Attribute name="isSiloTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelFillTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="96">
+      <Attribute name="fillTypes" type="string" value="forage"/>
+      <Attribute name="isSilo" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="ShovelTarget.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="97">
+      <Attribute name="fillTypes" type="string" value="forage"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="triggerWidth" type="float" value="6"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor" version="5.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="gravel_diffuse.dds" relativePath="true"/>
+    <File fileId="2" filename="new_Road.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Gravel" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="Road" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes>
+    <IndexedTriangleSet name="Gerade20m" shapeId="1" bvCenter="0 -0.2 -10" bvRadius="10.7519" isOptimized="true">
+      <Vertices count="12" normal="true" uv0="true">
+        <v p="-3.75 0 0" n="-0.707107 0.707107 0" t0="7.16667 0.566667"/>
+        <v p="-3.75 0 -20" n="-0.707107 0.707107 0" t0="-6.16667 0.566667"/>
+        <v p="-3.95 -0.2 0" n="-0.707107 0.707107 0" t0="7.16667 0.433333"/>
+        <v p="-3.95 -0.2 -20" n="-0.707107 0.707107 0" t0="-6.16667 0.433333"/>
+        <v p="3.95 -0.2 0" n="0.707107 0.707107 0" t0="-6.16667 0.433333"/>
+        <v p="3.95 -0.2 -20" n="0.707107 0.707107 0" t0="7.16667 0.433333"/>
+        <v p="3.75 0 0" n="0.707107 0.707107 0" t0="-6.16667 0.566667"/>
+        <v p="3.75 0 -20" n="0.707107 0.707107 0" t0="7.16667 0.566667"/>
+        <v p="3.75 0 0" n="0 1 0" t0="0.9995 -0.5"/>
+        <v p="3.75 0 -20" n="0 1 0" t0="0.9995 1.5"/>
+        <v p="-3.75 0 0" n="0 1 0" t0="0.000499547 -0.5"/>
+        <v p="-3.75 0 -20" n="0 1 0" t0="0.000500172 1.5"/>
+      </Vertices>
+      <Triangles count="6">
+        <t vi="0 1 2"/>
+        <t vi="1 3 2"/>
+        <t vi="4 5 6"/>
+        <t vi="5 7 6"/>
+        <t vi="8 9 10"/>
+        <t vi="9 11 10"/>
+      </Triangles>
+      <Subsets count="2">
+        <Subset firstVertex="0" numVertices="8" firstIndex="0" numIndices="12"/>
+        <Subset firstVertex="8" numVertices="4" firstIndex="12" numIndices="6"/>
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape name="Gerade20m" scale="1.3 1 1" static="true" clipDistance="3.50222e+011" nodeId="11" materialIds="6, 7" shapeId="1" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

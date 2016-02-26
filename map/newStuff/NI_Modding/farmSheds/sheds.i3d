@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="map01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="Farm_Sheds/Concrete_3.png" relativePath="true"/>
+    <File fileId="1" filename="Farm_Sheds/FarmShed_Roof.png" relativePath="true"/>
+    <File fileId="2" filename="Farm_Sheds/Farm_Sheds.png" relativePath="true"/>
+    <File fileId="10" filename="silo/MetalPlatesRusted0015_2_S.png" relativePath="true"/>
+    <File fileId="13" filename="silo/OLDWOOD.png" relativePath="true"/>
+    <File fileId="16" filename="silo/ParlourRoof.png" relativePath="true"/>
+    <File fileId="9" filename="silo/Wornconcrete.png" relativePath="true"/>
+    <File fileId="7" filename="silo/concrete.png" relativePath="true"/>
+    <File fileId="12" filename="silo/galvtin.png" relativePath="true"/>
+    <File fileId="6" filename="silo/grainsign.png" relativePath="true"/>
+    <File fileId="15" filename="silo/greymetal.PNG" relativePath="true"/>
+    <File fileId="14" filename="silo/pipe.png" relativePath="true"/>
+    <File fileId="17" filename="silo/redshed.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="02 - Default" materialId="9" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="14"/>
+    </Material>
+    <Material name="04 - Default" materialId="10" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="10 - Default" materialId="11" diffuseColor="0.0784314 0.0784314 0.0784314 1" ambientColor="0.090196 0.090196 0.090196">
+    </Material>
+    <Material name="16 - Default" materialId="12" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="03 - Default" materialId="13" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="02 - Default" materialId="14" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="15 - Default" materialId="15" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="17"/>
+    </Material>
+    <Material name="lambert1" materialId="16" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="0.85 0.85 0.85">
+    </Material>
+    <Material name="stationGrainPlaneMat" materialId="17" ambientColor="0.85 0.85 0.85">
+    </Material>
+    <Material name="lambert1" materialId="18" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="01 - Default" materialId="19" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="15"/>
+    </Material>
+    <Material name="07 - Default" materialId="20" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="10"/>
+    </Material>
+    <Material name="09 - Default" materialId="6" diffuseColor="0.564706 0.231373 0.231373 1" ambientColor="0.564706 0.235294 0.235294">
+    </Material>
+    <Material name="16 - Default" materialId="7" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="16"/>
+    </Material>
+    <Material name="Standard_1" materialId="8" diffuseColor="0.584314 0.584314 0.584314 1" ambientColor="0.85 0.85 0.85">
+    </Material>
+    <Material name="13 - Default" materialId="21" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="7"/>
+    </Material>
+    <Material name="01 - Default" materialId="22" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="6"/>
+    </Material>
+    <Material name="15 - Default" materialId="23" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="03 - Default" materialId="24" ambientColor="0.85 0.85 0.85">
+      <Texture fileId="9"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sheds.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="GPHouse1" translation="-22.4601 99.4799 30.3368" rotation="-9.68129e-007 83.0662 -9.60745e-007" static="true" clipDistance="500" nodeId="60" materialIds="12, 23, 13" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="2" name="Shed1" translation="-56.4973 99.5029 57.2279" rotation="-180 -82.3304 -180" static="true" clipDistance="500" nodeId="61" materialIds="12, 23, 13" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="3" name="leanto" translation="-56.9648 99.5198 33.88" rotation="180 7.41778 -180" static="true" clipDistance="500" nodeId="62" materialIds="12, 23, 13, 12" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="4" name="WagonShed" translation="-36.499 99.4207 54.9243" rotation="180 -82.7499 -180" static="true" clipDistance="500" nodeId="63" materialIds="12, 23, 23" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="Grainsilos" translation="-48.1726 99.5944 -14.3431" rotation="-180 5.29159 -180" clipDistance="500" nodeId="64">
+      <TransformGroup name="col" translation="-2.36596 0.0847866 -17.96" rotation="0 -1.08049 0" clipDistance="500" nodeId="65">
+        <TransformGroup name="stationBase" translation="0.0122797 -0.435694 0.00226634" rotation="0 1.5708 0" clipDistance="500" nodeId="66">
+          <Shape shapeId="5" name="stationGrainPlane" translation="0 -0.137822 -0.26215" scale="1.2 1.2 1.2" clipDistance="500" nodeId="67" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="stationPlane" translation="-0.0456217 0.179123 -0.33334" scale="1.09 1 1.05" static="true" clipDistance="500" nodeId="68" materialIds="16" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="7" name="Box07" translation="-2.15124 -0.00406561 -18.3316" static="true" clipDistance="100" nodeId="69" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="sgns" translation="7.69525 2.85675 -23.392" rotation="-90 6.71505e-006 180" clipDistance="300" nodeId="70">
+        <Shape shapeId="8" name="barley" translation="5.35932 0 0" scale="2 2 2" static="true" clipDistance="300" nodeId="71" materialIds="22" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="9" name="maize" translation="-4.8555 0 0" scale="2 2 2" static="true" clipDistance="300" nodeId="72" materialIds="22" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="10" name="rape" translation="-1.4506 0 0" scale="2 2 2" static="true" clipDistance="300" nodeId="73" materialIds="22" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="11" name="wheat01" translation="1.9619 0 0" scale="2 2 2" static="true" clipDistance="300" nodeId="74" materialIds="22" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <Shape shapeId="12" name="grainStationTrigger" translation="-2.3981 -2.75146e-010 -18.5729" rotation="-1.43531e-005 90 -1.43465e-005" visibility="false" static="true" trigger="true" collisionMask="8388608" nodeId="75" materialIds="16" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <TransformGroup name="triggerStart" translation="-3 0 0" nodeId="76"/>
+        <TransformGroup name="triggerEnd" translation="3 0 0" nodeId="77"/>
+      </Shape>
+      <Shape shapeId="13" name="Grainsilos" translation="4.7587 -0.171077 -19.4969" scale="0.96 0.765 0.79" static="true" clipDistance="500" nodeId="78" materialIds="21, 11, 24, 20, 6, 14, 10, 9, 19, 7, 15" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="14" name="siloTrigger01_wheat" translation="5.7927 4.84 -26.5" static="true" trigger="true" collisionMask="8388608" nodeId="79" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="15" name="siloTrigger02" static="true" trigger="true" collisionMask="8388608" nodeId="80" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="16" name="siloTrigger03" static="true" trigger="true" collisionMask="8388608" nodeId="81" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="17" name="siloTrigger04" static="true" trigger="true" collisionMask="8388608" nodeId="82" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="14" name="siloTrigger01_barley" translation="2.37055 4.8 -26.5" static="true" trigger="true" collisionMask="8388608" nodeId="83" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="15" name="siloTrigger02" static="true" trigger="true" collisionMask="8388608" nodeId="84" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="16" name="siloTrigger03" static="true" trigger="true" collisionMask="8388608" nodeId="85" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="17" name="siloTrigger04" static="true" trigger="true" collisionMask="8388608" nodeId="86" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="14" name="siloTrigger01_rape" translation="9.10389 4.84 -26.5" static="true" trigger="true" collisionMask="8388608" nodeId="87" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="15" name="siloTrigger02" static="true" trigger="true" collisionMask="8388608" nodeId="88" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="16" name="siloTrigger03" static="true" trigger="true" collisionMask="8388608" nodeId="89" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="17" name="siloTrigger04" static="true" trigger="true" collisionMask="8388608" nodeId="90" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="14" name="siloTrigger01_maize" translation="12.4961 4.8 -26.5" static="true" trigger="true" collisionMask="8388608" nodeId="91" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="15" name="siloTrigger02" static="true" trigger="true" collisionMask="8388608" nodeId="92" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="16" name="siloTrigger03" static="true" trigger="true" collisionMask="8388608" nodeId="93" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="17" name="siloTrigger04" static="true" trigger="true" collisionMask="8388608" nodeId="94" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+    </TransformGroup>
+    <Shape shapeId="3" name="leanto" translation="-30.7103 99.4381 -14.4776" rotation="-4.31666e-006 83.516 -1.7947e-005" static="true" clipDistance="500" nodeId="95" materialIds="12, 23, 13, 12" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="75">
+      <Attribute name="appearsOnPDA" type="boolean" value="false"/>
+      <Attribute name="fruitTypes" type="string" value="wheat barley rape maize"/>
+      <Attribute name="isAreaTrigger" type="boolean" value="true"/>
+      <Attribute name="isFarmTrigger" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="priceMultipliers" type="string" value="1.0 1.0 1.0 1.0"/>
+      <Attribute name="triggerWidth" type="float" value="2.5"/>
+    </UserAttribute>
+    <UserAttribute nodeId="79">
+      <Attribute name="fruitType" type="string" value="wheat"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloTrigger.onCreate"/>
+      <Attribute name="particlePosition" type="string" value="-0.05 0.15 0.05"/>
+    </UserAttribute>
+    <UserAttribute nodeId="83">
+      <Attribute name="fruitType" type="string" value="barley"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloTrigger.onCreate"/>
+      <Attribute name="particlePosition" type="string" value="-0.05 0.15 0.05"/>
+    </UserAttribute>
+    <UserAttribute nodeId="87">
+      <Attribute name="fruitType" type="string" value="rape"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloTrigger.onCreate"/>
+      <Attribute name="particlePosition" type="string" value="-0.05 0.15 0.05"/>
+    </UserAttribute>
+    <UserAttribute nodeId="91">
+      <Attribute name="fruitType" type="string" value="maize"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SiloTrigger.onCreate"/>
+      <Attribute name="particlePosition" type="string" value="-0.05 0.15 0.05"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

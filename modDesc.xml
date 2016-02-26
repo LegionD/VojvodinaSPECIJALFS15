@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="21">
+    <author>My Name</author>
+    <version>1</version>
+    <title>
+        <en>Sample Mod Map</en>
+        <de>Beispiel Mod Map</de>
+    </title>
+    <description>
+        <en>Starter map.</en>
+        <de>Dies ist die Beispiel Mod Map.</de>
+    </description>
+    <iconFilename>map_icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <l10n>
+        <text name="sampleModMapBriefingText1">
+            <en>This is my new starter map for people to start editing.</en>
+            <de>Dies ist der erste Textabschnitt. Hier kann beispielsweise eine Beschreibung der Map stehen.</de>
+        </text>
+        <text name="sampleModMapBriefingText2">
+            <en>Because all the i3d files have been deleted, i have made this map with 1 of every object, for you's to edit this map with original objects.</en>
+            <de>Dies ist der zweite Textabschnitt.</de>
+        </text>
+        <text name="sampleModMapBriefingText3">
+            <en>You can also import objects, just to make the best farm map you can edit. Have fun.</en>
+            <de>Dies ist der dritte Textabschnitt.</de>
+        </text>
+        <!-- chopped Straw l10n -->
+        <text name="choppedStraw">
+          <en>Chopped Straw</en>
+          <de>Gehäckseltes Stroh</de>
+        </text>
+        <text name="choppedMaize">
+          <en>Chopped maize</en>
+          <de>Gehäckselter Mais</de>
+        </text>
+        <text name="choppedRape">
+          <en>Chopped rape</en>
+          <de>Gehäckselter Raps</de>
+        </text>
+
+        </l10n>
+
+        <extraSourceFiles>
+             <sourceFile filename="map/choppedStraw/fruits.lua" />
+        </extraSourceFiles>
+
+    <maps>
+        <map id="SampleModMap" className="SampleModMap" filename="SampleModMap.lua" defaultVehiclesXMLFilename="defaultVehicles.xml">
+            <title>
+                <en>Sample Mod Map</en>
+                <de>Beispiel Mod Map</de>
+            </title>
+            <description>
+                <en>This is the sample mod map.</en>
+                <de>Dies ist die Beispiel Mod Map.</de>
+            </description>
+            <briefingImagePrefix>sampleModMap</briefingImagePrefix>
+            <briefingTextPrefix>sampleModMap</briefingTextPrefix>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+
+</modDesc>

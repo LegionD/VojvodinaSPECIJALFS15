@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="BS_KREUZUNG_MULTI_RANDSTREIFEN_UV.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor" version="5.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="../Textur/asphalt_diffuse.dds" relativePath="true"/>
+    <File fileId="1" filename="../Textur/grass_diffuse.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="Material.001" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="Material.002" materialId="8" diffuseColor="0.8 0.8 0.8 1" ambientColor="1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes>
+    <IndexedTriangleSet name="Plane" shapeId="1" bvCenter="-4.535 0.15 -15" bvRadius="15.0318" isOptimized="true">
+      <Vertices count="24" normal="true" uv0="true">
+        <v p="-4.75 0.3 -0" n="0 1 -0" t0="1.17603 -1.02782"/>
+        <v p="-3.75 0.3 -0" n="0 1 -0" t0="1.27702 -1.02782"/>
+        <v p="-3.75 0.3 -30" n="0 1 -0" t0="1.27702 2.00183"/>
+        <v p="-4.75 0.3 -0" n="0 1 -0" t0="1.17603 -1.02782"/>
+        <v p="-3.75 0.3 -30" n="0 1 -0" t0="1.27702 2.00183"/>
+        <v p="-4.75 0.3 -30" n="0 1 -0" t0="1.17603 2.00183"/>
+        <v p="-5.5 0 -0" n="-0.371391 0.928477 -0" t0="1.10901 -1.00438"/>
+        <v p="-4.75 0.3 -0" n="-0.371391 0.928477 -0" t0="1.17603 -1.02782"/>
+        <v p="-4.75 0.3 -30" n="-0.371391 0.928477 -0" t0="1.17603 2.00183"/>
+        <v p="-5.5 0 -0" n="-0.371391 0.928477 -0" t0="1.10901 -1.00438"/>
+        <v p="-4.75 0.3 -30" n="-0.371391 0.928477 -0" t0="1.17603 2.00183"/>
+        <v p="-5.5 0 -30" n="-0.371391 0.928477 -0" t0="1.10901 1.97754"/>
+        <v p="-3.75 0.3 -0" n="0 1 -0" t0="0.655923 -4.06748"/>
+        <v p="-3.69 0.3 -0" n="0 1 -0" t0="0.674139 -4.06748"/>
+        <v p="-3.69 0.3 -30" n="0 1 -0" t0="0.674139 5.04061"/>
+        <v p="-3.75 0.3 -0" n="0 1 -0" t0="0.655923 -4.06748"/>
+        <v p="-3.69 0.3 -30" n="0 1 -0" t0="0.674139 5.04061"/>
+        <v p="-3.75 0.3 -30" n="0 1 -0" t0="0.655923 5.04061"/>
+        <v p="-3.69 0.3 -0" n="0 1 -0" t0="0.674139 -4.06748"/>
+        <v p="-3.57 0.3 -0" n="0 1 -0" t0="0.710572 -4.06748"/>
+        <v p="-3.57 0.3 -30" n="0 1 -0" t0="0.710572 5.04061"/>
+        <v p="-3.69 0.3 -0" n="0 1 -0" t0="0.674139 -4.06748"/>
+        <v p="-3.57 0.3 -30" n="0 1 -0" t0="0.710572 5.04061"/>
+        <v p="-3.69 0.3 -30" n="0 1 -0" t0="0.674139 5.04061"/>
+      </Vertices>
+      <Triangles count="8">
+        <t vi="0 1 2"/>
+        <t vi="3 4 5"/>
+        <t vi="6 7 8"/>
+        <t vi="9 10 11"/>
+        <t vi="12 13 14"/>
+        <t vi="15 16 17"/>
+        <t vi="18 19 20"/>
+        <t vi="21 22 23"/>
+      </Triangles>
+      <Subsets count="3">
+        <Subset firstVertex="0" numVertices="12" firstIndex="0" numIndices="12"/>
+        <Subset firstVertex="12" numVertices="6" firstIndex="12" numIndices="6"/>
+        <Subset firstVertex="18" numVertices="6" firstIndex="18" numIndices="6"/>
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape name="BS_KREUZUNG_MULTI_RANDSTREIFEN" static="true" nodeId="12" materialIds="6, 7, 8" shapeId="1" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

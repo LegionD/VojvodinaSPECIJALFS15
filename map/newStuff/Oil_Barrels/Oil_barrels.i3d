@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="oilb" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="Textures/Diffuse_New.dds" relativePath="true"/>
+    <File fileId="1" filename="Textures/Diffuse_old.dds" relativePath="true"/>
+    <File fileId="5" filename="Textures/Normal_New.dds" relativePath="true"/>
+    <File fileId="2" filename="Textures/Normal_old.dds" relativePath="true"/>
+    <File fileId="6" filename="Textures/Specular_New.dds" relativePath="true"/>
+    <File fileId="3" filename="Textures/Specular_old.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="New_Mat" materialId="6" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="old_Mat" materialId="7" ambientColor="1 1 1" cosPower="100" specularColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Oil_barrels.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="old_Barrel" translation="-0.5 0 0" rotation="0 -90 0" static="true" clipDistance="200" nodeId="11" materialIds="7" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="1" name="New_Barrel" translation="0.5 0 0" rotation="0 -90 0" static="true" clipDistance="200" nodeId="12" materialIds="6" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

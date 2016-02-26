@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="map01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="texture/NEW_House.png" relativePath="true"/>
+    <File fileId="2" filename="texture/NewHouseFront.png" relativePath="true"/>
+    <File fileId="3" filename="texture/Roof.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="acmat_1" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="acmat_3" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="acmat_5" materialId="8" ambientColor="1 1 1">
+      <Texture fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="home.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="home" translation="88.109 110 -276.069" rotation="-180 -90 -180" scale="0.4 0.4 0.6" static="true" clipDistance="500" nodeId="12" materialIds="6, 7, 8" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

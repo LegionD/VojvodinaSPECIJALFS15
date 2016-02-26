@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="ANBAU_NS_FW_FERTIG.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor" version="5.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="../Textur/asphalt_diffuse.dds" relativePath="true"/>
+    <File fileId="1" filename="../Textur/grass_diffuse.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="Material.001" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes>
+    <IndexedTriangleSet name="Plane" shapeId="1" bvCenter="4.73375e-007 0 1.88125" bvRadius="4.87741" isOptimized="true">
+      <Vertices count="24" normal="true" uv0="true">
+        <v p="2.75 0.3 0" n="0 0.998205 0.059892" t0="0.776587 1.63197"/>
+        <v p="2.75 -0 5" n="0 0.998205 0.059892" t0="0.775187 1.12281"/>
+        <v p="3.75 -0 5" n="0 0.998205 0.059892" t0="0.875175 1.12281"/>
+        <v p="2.75 0.3 0" n="0 0.998205 0.059892" t0="0.776587 1.63197"/>
+        <v p="3.75 -0 5" n="0 0.998205 0.059892" t0="0.875175 1.12281"/>
+        <v p="3.75 0.3 0" n="0 0.998205 0.059892" t0="0.878416 1.63197"/>
+        <v p="-2.75 -0 5" n="0 0.998205 0.059892" t0="0.225257 1.12281"/>
+        <v p="-2.75 0.3 -0" n="0 0.998205 0.059892" t0="0.216525 1.63197"/>
+        <v p="-3.75 0.3 -0" n="0 0.998205 0.059892" t0="0.114695 1.63197"/>
+        <v p="-2.75 -0 5" n="0 0.998205 0.059892" t0="0.225257 1.12281"/>
+        <v p="-3.75 0.3 -0" n="0 0.998205 0.059892" t0="0.114695 1.63197"/>
+        <v p="-3.75 -0 5" n="0 0.998205 0.059892" t0="0.12527 1.12281"/>
+        <v p="3.75 0.3 0" n="0.370816 0.927039 0.055622" t0="0.878416 1.63197"/>
+        <v p="3.75 -0 5" n="0.370816 0.927039 0.055622" t0="0.875175 1.12281"/>
+        <v p="4.5 0 0" n="0.370816 0.927039 0.055622" t0="0.950165 1.62275"/>
+        <v p="-3.75 -0 5" n="-0.370816 0.927039 0.055622" t0="0.12527 1.12281"/>
+        <v p="-3.75 0.3 -0" n="-0.370816 0.927039 0.055622" t0="0.114695 1.63197"/>
+        <v p="-4.5 0 -0" n="-0.370816 0.927039 0.055622" t0="0.050279 1.62275"/>
+        <v p="2.75 0.3 0" n="-0 0.998205 0.059892" t0="1.32499 3.83646"/>
+        <v p="-2.75 0.3 -0" n="-0 0.998205 0.059892" t0="-0.353361 3.83646"/>
+        <v p="-2.75 -0 5" n="-0 0.998205 0.059892" t0="-0.327193 2.31067"/>
+        <v p="2.75 0.3 0" n="-0 0.998205 0.059892" t0="1.32499 3.83646"/>
+        <v p="-2.75 -0 5" n="-0 0.998205 0.059892" t0="-0.327193 2.31067"/>
+        <v p="2.75 -0 5" n="-0 0.998205 0.059892" t0="1.3208 2.31067"/>
+      </Vertices>
+      <Triangles count="8">
+        <t vi="0 1 2"/>
+        <t vi="3 4 5"/>
+        <t vi="6 7 8"/>
+        <t vi="9 10 11"/>
+        <t vi="12 13 14"/>
+        <t vi="15 16 17"/>
+        <t vi="18 19 20"/>
+        <t vi="21 22 23"/>
+      </Triangles>
+      <Subsets count="2">
+        <Subset firstVertex="0" numVertices="18" firstIndex="0" numIndices="18"/>
+        <Subset firstVertex="18" numVertices="6" firstIndex="18" numIndices="6"/>
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape name="ANBAU_NS_FW" rotation="0 180 0" static="true" nodeId="11" materialIds="6, 7" shapeId="1" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

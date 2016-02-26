@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="map01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="unloadPitAlpha_diffuse.png" relativePath="true"/>
+    <File fileId="1" filename="Ablade_potato_deffuse.png" relativePath="true"/>
+    <File fileId="3" filename="asphalt_diffuse.png" relativePath="true"/>
+    <File fileId="4" filename="alphaTestDisableShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="asphalt_mat" materialId="15" ambientColor="1 1 1" customShaderId="4">
+      <Texture fileId="3"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+    </Material>
+    <Material name="unloadPitAlpha_mat" materialId="16" ambientColor="1 1 1" alphaBlending="true">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="gray_mat" materialId="13" diffuseColor="0.584314 0.584314 0.584314 1" ambientColor="0.588235 0.588235 0.588235">
+    </Material>
+    <Material name="unloadPit_mat" materialId="7" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Ablade_Potato.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Ablade_Potato" translation="-10 0.2 0.078895" rotation="0 90 0" scale="0.8 1 1" clipDistance="300" nodeId="86" materialIds="7" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="unloadPitGrating" clipDistance="300" nodeId="87" materialIds="16" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="unloadPitStationGround" clipDistance="300" nodeId="88" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="4" name="unloadPitStation_col" static="true" clipDistance="300" nodeId="89" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="89">
+      <Attribute name="noTyreTracks" type="boolean" value="true"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="unna" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="texture/1.dds" relativePath="true"/>
+    <File fileId="9" filename="texture/10.dds" relativePath="true"/>
+    <File fileId="14" filename="texture/11.dds" relativePath="true"/>
+    <File fileId="6" filename="texture/2.dds" relativePath="true"/>
+    <File fileId="7" filename="texture/3.dds" relativePath="true"/>
+    <File fileId="12" filename="texture/4.dds" relativePath="true"/>
+    <File fileId="13" filename="texture/5.dds" relativePath="true"/>
+    <File fileId="2" filename="texture/6.dds" relativePath="true"/>
+    <File fileId="10" filename="texture/7.dds" relativePath="true"/>
+    <File fileId="3" filename="texture/8.dds" relativePath="true"/>
+    <File fileId="8" filename="texture/9.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert22" materialId="13" ambientColor="1 1 1">
+      <Texture fileId="14"/>
+    </Material>
+    <Material name="lambert12" materialId="14" ambientColor="1 1 1">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="verbinder" materialId="15" diffuseColor="0.494118 0.101961 0.101961 1" ambientColor="0.300816 0.300816 0.300816">
+    </Material>
+    <Material name="Sandeman" materialId="16" ambientColor="1 1 1">
+      <Texture fileId="7"/>
+    </Material>
+    <Material name="weis" materialId="17" diffuseColor="0.901961 0.882353 0.882353 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="plakat" materialId="18" ambientColor="1 1 1">
+      <Texture fileId="6"/>
+    </Material>
+    <Material name="lambert13" materialId="19" ambientColor="1 1 1">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="lambert20" materialId="20" ambientColor="1 1 1">
+      <Texture fileId="8"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="material222" materialId="7" ambientColor="1 1 1">
+    </Material>
+    <Material name="Rahmen" materialId="8" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="lambert21" materialId="9" ambientColor="1 1 1">
+      <Texture fileId="9"/>
+    </Material>
+    <Material name="lambert19" materialId="10" ambientColor="1 1 1" alphaBlending="true">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="pflaster" materialId="11" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="Halte" materialId="12" ambientColor="1 1 1">
+      <Texture fileId="10"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="busStop.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="busStop" translation="-21.1101 0.115876 -203.929" rotation="0 90 0" scale="0.8 0.8 0.8" static="true" clipDistance="300" nodeId="26" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="2" name="Haltestelle" translation="-2.26966 0 0" scale="0.9 0.9 0.9" static="true" nodeId="27" materialIds="8, 11, 10, 15, 6, 18, 16, 20, 9, 12, 17, 14, 19, 13" castsShadows="true" receiveShadows="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

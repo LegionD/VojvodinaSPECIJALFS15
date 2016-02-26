@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="NS_KREUZUNG_MULTI_FAHRBAHN_UV.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor" version="5.0.1"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../Textur/asphalt_diffuse.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material.001" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes>
+    <IndexedTriangleSet name="Plane" shapeId="1" bvCenter="0 0.3 -15" bvRadius="15.25" isOptimized="true">
+      <Vertices count="6" normal="true" uv0="true">
+        <v p="2.75 0.3 -30" n="0 1 0" t0="4.04845 5.14919"/>
+        <v p="-2.75 0.3 -30" n="0 1 0" t0="2.38004 5.14919"/>
+        <v p="-2.75 0.3 -0" n="0 1 0" t0="2.38004 -3.95126"/>
+        <v p="2.75 0.3 -30" n="0 1 0" t0="4.04845 5.14919"/>
+        <v p="-2.75 0.3 -0" n="0 1 0" t0="2.38004 -3.95126"/>
+        <v p="2.75 0.3 -0" n="0 1 0" t0="4.04845 -3.95126"/>
+      </Vertices>
+      <Triangles count="2">
+        <t vi="0 1 2"/>
+        <t vi="3 4 5"/>
+      </Triangles>
+      <Subsets count="1">
+        <Subset firstVertex="0" numVertices="6" firstIndex="0" numIndices="6"/>
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape name="NS_KREUZUNG_MULTI_FAHRBAHN" static="true" nodeId="10" materialIds="6" shapeId="1" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

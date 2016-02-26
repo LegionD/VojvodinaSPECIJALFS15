@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="6.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="shaders/flagShader.xml" relativePath="true"/>
+    <File fileId="24" filename="textures/adFlagAgroliner.png" relativePath="true"/>
+    <File fileId="1" filename="textures/adFlagAmazone.png" relativePath="true"/>
+    <File fileId="34" filename="textures/adFlagArcu.png" relativePath="true"/>
+    <File fileId="25" filename="textures/adFlagBergmann.png" relativePath="true"/>
+    <File fileId="35" filename="textures/adFlagBrant.png" relativePath="true"/>
+    <File fileId="36" filename="textures/adFlagBuh.png" relativePath="true"/>
+    <File fileId="37" filename="textures/adFlagCapello.png" relativePath="true"/>
+    <File fileId="7" filename="textures/adFlagCase.png" relativePath="true"/>
+    <File fileId="38" filename="textures/adFlagCat.png" relativePath="true"/>
+    <File fileId="39" filename="textures/adFlagCat2.png" relativePath="true"/>
+    <File fileId="11" filename="textures/adFlagClaas.png" relativePath="true"/>
+    <File fileId="40" filename="textures/adFlagDaf.png" relativePath="true"/>
+    <File fileId="41" filename="textures/adFlagDaf2.png" relativePath="true"/>
+    <File fileId="42" filename="textures/adFlagDamcon.png" relativePath="true"/>
+    <File fileId="5" filename="textures/adFlagDeutz.png" relativePath="true"/>
+    <File fileId="10" filename="textures/adFlagFendt.png" relativePath="true"/>
+    <File fileId="43" filename="textures/adFlagFendt2.png" relativePath="true"/>
+    <File fileId="33" filename="textures/adFlagFliegl.png" relativePath="true"/>
+    <File fileId="44" filename="textures/adFlagFsi.png" relativePath="true"/>
+    <File fileId="3" filename="textures/adFlagGrimme.png" relativePath="true"/>
+    <File fileId="13" filename="textures/adFlagHorsch.png" relativePath="true"/>
+    <File fileId="45" filename="textures/adFlagHur.png" relativePath="true"/>
+    <File fileId="46" filename="textures/adFlagHusq.png" relativePath="true"/>
+    <File fileId="47" filename="textures/adFlagIfa.png" relativePath="true"/>
+    <File fileId="48" filename="textures/adFlagIveco.png" relativePath="true"/>
+    <File fileId="49" filename="textures/adFlagIveco2.png" relativePath="true"/>
+    <File fileId="12" filename="textures/adFlagJD.png" relativePath="true"/>
+    <File fileId="50" filename="textures/adFlagJD2.png" relativePath="true"/>
+    <File fileId="21" filename="textures/adFlagJenz.png" relativePath="true"/>
+    <File fileId="51" filename="textures/adFlagJons.png" relativePath="true"/>
+    <File fileId="52" filename="textures/adFlagKamaz.png" relativePath="true"/>
+    <File fileId="22" filename="textures/adFlagKarcher.png" relativePath="true"/>
+    <File fileId="53" filename="textures/adFlagKock.png" relativePath="true"/>
+    <File fileId="54" filename="textures/adFlagKotte.png" relativePath="true"/>
+    <File fileId="26" filename="textures/adFlagKrampe.png" relativePath="true"/>
+    <File fileId="4" filename="textures/adFlagKrone.png" relativePath="true"/>
+    <File fileId="16" filename="textures/adFlagKuhn.png" relativePath="true"/>
+    <File fileId="15" filename="textures/adFlagLamborghini.png" relativePath="true"/>
+    <File fileId="27" filename="textures/adFlagLemken.png" relativePath="true"/>
+    <File fileId="9" filename="textures/adFlagLiebherr.png" relativePath="true"/>
+    <File fileId="23" filename="textures/adFlagLinder.png" relativePath="true"/>
+    <File fileId="55" filename="textures/adFlagLizard.png" relativePath="true"/>
+    <File fileId="63" filename="textures/adFlagMF.png" relativePath="true"/>
+    <File fileId="64" filename="textures/adFlagMTZ.png" relativePath="true"/>
+    <File fileId="19" filename="textures/adFlagMan.png" relativePath="true"/>
+    <File fileId="56" filename="textures/adFlagMan2.png" relativePath="true"/>
+    <File fileId="57" filename="textures/adFlagMan3.png" relativePath="true"/>
+    <File fileId="58" filename="textures/adFlagMarshall.png" relativePath="true"/>
+    <File fileId="59" filename="textures/adFlagMcC.png" relativePath="true"/>
+    <File fileId="60" filename="textures/adFlagMerc1.png" relativePath="true"/>
+    <File fileId="61" filename="textures/adFlagMerc2.png" relativePath="true"/>
+    <File fileId="62" filename="textures/adFlagMerc3.png" relativePath="true"/>
+    <File fileId="6" filename="textures/adFlagNewHolland.png" relativePath="true"/>
+    <File fileId="8" filename="textures/adFlagPonsse.png" relativePath="true"/>
+    <File fileId="14" filename="textures/adFlagPottinger.png" relativePath="true"/>
+    <File fileId="65" filename="textures/adFlagRaba.png" relativePath="true"/>
+    <File fileId="66" filename="textures/adFlagRenault.png" relativePath="true"/>
+    <File fileId="17" filename="textures/adFlagSame.png" relativePath="true"/>
+    <File fileId="67" filename="textures/adFlagSampo.png" relativePath="true"/>
+    <File fileId="68" filename="textures/adFlagScania1.png" relativePath="true"/>
+    <File fileId="69" filename="textures/adFlagScania2.png" relativePath="true"/>
+    <File fileId="70" filename="textures/adFlagStepa.png" relativePath="true"/>
+    <File fileId="20" filename="textures/adFlagSteyr.png" relativePath="true"/>
+    <File fileId="28" filename="textures/adFlagStoll.png" relativePath="true"/>
+    <File fileId="29" filename="textures/adFlagStra.png" relativePath="true"/>
+    <File fileId="71" filename="textures/adFlagSuer.png" relativePath="true"/>
+    <File fileId="72" filename="textures/adFlagTam.png" relativePath="true"/>
+    <File fileId="18" filename="textures/adFlagUrsus.png" relativePath="true"/>
+    <File fileId="30" filename="textures/adFlagVad.png" relativePath="true"/>
+    <File fileId="73" filename="textures/adFlagValtra.png" relativePath="true"/>
+    <File fileId="31" filename="textures/adFlagVogel.png" relativePath="true"/>
+    <File fileId="74" filename="textures/adFlagVolvo1.png" relativePath="true"/>
+    <File fileId="75" filename="textures/adFlagVolvo2.png" relativePath="true"/>
+    <File fileId="76" filename="textures/adFlagZetor.png" relativePath="true"/>
+    <File fileId="32" filename="textures/adFlagZunh.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="adFlagUrsus_mat" materialId="7" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="18"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagGrimme_mat" materialId="8" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="3"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.28 4 0.32 0.23"/>
+    </Material>
+    <Material name="adFlagMerc1_mat" materialId="23" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="60"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagIveco2_mat" materialId="24" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="49"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagHusq_mat" materialId="21" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="46"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMarshall_mat" materialId="25" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="58"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKotte_mat" materialId="20" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="54"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagIveco_mat" materialId="22" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="48"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagCapello_mat" materialId="26" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="37"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagJons_mat" materialId="19" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="51"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagAmazone_mat" materialId="9" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="1"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.33 4 0.26 0.25"/>
+    </Material>
+    <Material name="adFlagSame_mat" materialId="10" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="17"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagStra_mat" materialId="11" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="29"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKarcher_mat" materialId="12" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="22"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagLizard_mat" materialId="42" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="55"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagBrant_mat" materialId="37" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="35"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagPonsse_mat" materialId="38" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="8"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.28 5 0.37 0.26"/>
+    </Material>
+    <Material name="adFlagFsi_mat" materialId="40" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="44"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMan_mat" materialId="35" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="19"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagBuh_mat" materialId="39" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="36"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagCat2_mat" materialId="41" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="39"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagAgroliner_mat" materialId="36" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="24"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagFliegl_mat" materialId="51" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="33"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagLinder_mat" materialId="54" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="23"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagZunh_mat" materialId="55" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="32"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagPottinger_mat" materialId="57" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="14"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKrone_mat" materialId="53" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="4"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.25 5 0.4 0.26"/>
+    </Material>
+    <Material name="adFlagStoll_mat" materialId="52" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="28"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagBergmann_mat" materialId="56" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="25"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagVad_mat" materialId="58" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="30"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMan3_mat" materialId="44" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="57"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagDeutz_mat" materialId="50" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="5"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.3 4 0.3 0.26"/>
+    </Material>
+    <Material name="adFlagMcC_mat" materialId="46" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="59"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagFendt2_mat" materialId="49" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="43"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKock_mat" materialId="43" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="53"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagDaf2_mat" materialId="45" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="41"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMan2_mat" materialId="47" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="56"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagDamcon_mat" materialId="48" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="42"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKamaz_mat" materialId="27" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="52"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagArcu_mat" materialId="31" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="34"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagDaf_mat" materialId="33" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="40"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagSuer_mat" materialId="30" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="71"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagHur_mat" materialId="28" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="45"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagIfa_mat" materialId="32" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="47"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagSteyr_mat" materialId="34" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="20"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagCat_mat" materialId="29" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="38"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagScania2_mat" materialId="71" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="69"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagZetor_mat" materialId="67" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="76"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagValtra_mat" materialId="68" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="73"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagVolvo2_mat" materialId="70" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="75"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagStepa_mat" materialId="73" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="70"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagSampo_mat" materialId="69" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="67"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagTam_mat" materialId="72" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="72"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagVolvo1_mat" materialId="74" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="74"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagLemken_mat" materialId="13" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="27"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKuhn_mat" materialId="14" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="16"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagVogel_mat" materialId="16" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="31"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagKrampe_mat" materialId="15" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="26"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagLamborghini_mat" materialId="17" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="15"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagJD2_mat" materialId="18" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="50"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagLiebherr_mat" materialId="64" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="9"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagJD_mat" materialId="65" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="12"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagHorsch_mat" materialId="62" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="13"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagClaas_mat" materialId="60" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="11"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagFendt_mat" materialId="66" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="10"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagNewHolland_mat" materialId="59" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="6"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.3 4 0.3 0.26"/>
+    </Material>
+    <Material name="adFlagCase_mat" materialId="61" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="7"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.25 5 0.4 0.26"/>
+    </Material>
+    <Material name="adFlagJenz_mat" materialId="63" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="21"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMerc2_mat" materialId="81" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="61"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMTZ_mat" materialId="80" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="64"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagScania1_mat" materialId="76" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="68"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagRaba_mat" materialId="77" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="65"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMerc3_mat" materialId="78" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="62"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagMF_mat" materialId="75" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="63"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+    <Material name="adFlagRenault_mat" materialId="79" ambientColor="1 1 1" cosPower="20" specularColor="0.2 0.2 0.2" customShaderId="2">
+      <Texture fileId="66"/>
+      <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.24 5 0.38 0.26"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Flags.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="FlagsV1" nodeId="85">
+      <Shape shapeId="1" name="adFlagAmazone" translation="5 0 25" static="true" clipDistance="250" nodeId="86" materialIds="9" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagGrimme" translation="5 0 20" static="true" clipDistance="250" nodeId="87" materialIds="8" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKrone" translation="5 0 15" static="true" clipDistance="250" nodeId="88" materialIds="53" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagDeutz" translation="5 0 10" static="true" clipDistance="250" nodeId="89" materialIds="50" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagNewHolland" translation="0 0 25" static="true" clipDistance="250" nodeId="90" materialIds="59" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagCase" translation="0 0 20" static="true" clipDistance="250" nodeId="91" materialIds="61" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagPonsse" translation="0 0 15" static="true" clipDistance="250" nodeId="92" materialIds="38" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagLiebherr" translation="0 0 10" static="true" clipDistance="250" nodeId="93" materialIds="64" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagFendt" static="true" clipDistance="250" nodeId="94" materialIds="66" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagClaas" translation="0 0 -5" static="true" clipDistance="250" nodeId="95" materialIds="60" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagJD" translation="0 0 -10" static="true" clipDistance="250" nodeId="96" materialIds="65" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagHorsch" translation="0 0 -15" static="true" clipDistance="250" nodeId="97" materialIds="62" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagPottinger" translation="0 0 -20" static="true" clipDistance="250" nodeId="98" materialIds="57" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagLamborghini" translation="5 0 0" static="true" clipDistance="250" nodeId="99" materialIds="17" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKuhn" translation="5 0 -5" static="true" clipDistance="250" nodeId="100" materialIds="14" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagSame" translation="5 0 -10" static="true" clipDistance="250" nodeId="101" materialIds="10" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagUrsus" translation="5 0 -15" static="true" clipDistance="250" nodeId="102" materialIds="7" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMan" translation="5 0 -20" static="true" clipDistance="250" nodeId="103" materialIds="35" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagSteyr" translation="10 0 0" static="true" clipDistance="250" nodeId="104" materialIds="34" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagJenz" translation="10 0 -5" static="true" clipDistance="250" nodeId="105" materialIds="63" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKarcher" translation="10 0 -10" static="true" clipDistance="250" nodeId="106" materialIds="12" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagLinder" translation="10 0 -15" static="true" clipDistance="250" nodeId="107" materialIds="54" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagAgroliner" translation="10 0 -20" static="true" clipDistance="250" nodeId="108" materialIds="36" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagBergmann" translation="15 0 0" static="true" clipDistance="250" nodeId="109" materialIds="56" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKrampe" translation="15 0 -10" static="true" clipDistance="250" nodeId="110" materialIds="15" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagLemken" translation="15 0 -15" static="true" clipDistance="250" nodeId="111" materialIds="13" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagStoll" translation="15 0 -20" static="true" clipDistance="250" nodeId="112" materialIds="52" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagStra" translation="20 0 0" static="true" clipDistance="250" nodeId="113" materialIds="11" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagVad" translation="20 0 -5" static="true" clipDistance="250" nodeId="114" materialIds="58" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagVogel" translation="20 0 -10" static="true" clipDistance="250" nodeId="115" materialIds="16" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagZunh" translation="20 0 -15" static="true" clipDistance="250" nodeId="116" materialIds="55" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagFliegl" translation="15 0 -5" static="true" clipDistance="250" nodeId="117" materialIds="51" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="FlagsV2" translation="20 0 0" nodeId="118">
+      <Shape shapeId="1" name="adFlagArcu" translation="0 0 -25" static="true" clipDistance="250" nodeId="119" materialIds="31" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagBrant" translation="0 0 -20" static="true" clipDistance="250" nodeId="120" materialIds="37" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagBuh" translation="0 0 -15" static="true" clipDistance="250" nodeId="121" materialIds="39" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagCapello" translation="0 0 -10" static="true" clipDistance="250" nodeId="122" materialIds="26" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagCat" translation="0 0 -5" static="true" clipDistance="250" nodeId="123" materialIds="29" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagCat2" static="true" clipDistance="250" nodeId="124" materialIds="41" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagDaf" translation="0 0 5" static="true" clipDistance="250" nodeId="125" materialIds="33" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagDaf2" translation="0 0 10" static="true" clipDistance="250" nodeId="126" materialIds="45" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagDamcon" translation="0 0 15" static="true" clipDistance="250" nodeId="127" materialIds="48" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagFendt2" translation="0 0 20" static="true" clipDistance="250" nodeId="128" materialIds="49" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagFsi" translation="0 0 25" static="true" clipDistance="250" nodeId="129" materialIds="40" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagHur" translation="5 0 -25" static="true" clipDistance="250" nodeId="130" materialIds="28" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagHusq" translation="5 0 -20" static="true" clipDistance="250" nodeId="131" materialIds="21" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagIfa" translation="5 0 -15" static="true" clipDistance="250" nodeId="132" materialIds="32" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagIveco" translation="5 0 -10" static="true" clipDistance="250" nodeId="133" materialIds="22" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagIveco2" translation="5 0 -5" static="true" clipDistance="250" nodeId="134" materialIds="24" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagJD2" translation="5 0 0" static="true" clipDistance="250" nodeId="135" materialIds="18" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagJons" translation="5 0 5" static="true" clipDistance="250" nodeId="136" materialIds="19" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKamaz" translation="5 0 10" static="true" clipDistance="250" nodeId="137" materialIds="27" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKock" translation="5 0 15" static="true" clipDistance="250" nodeId="138" materialIds="43" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagKotte" translation="5 0 20" static="true" clipDistance="250" nodeId="139" materialIds="20" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagLizard" translation="5 0 25" static="true" clipDistance="250" nodeId="140" materialIds="42" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMan2" translation="10 0 -25" static="true" clipDistance="250" nodeId="141" materialIds="47" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMan3" translation="10 0 -20" static="true" clipDistance="250" nodeId="142" materialIds="44" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMarshall" translation="10 0 -15" static="true" clipDistance="250" nodeId="143" materialIds="25" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMcC" translation="10 0 -10" static="true" clipDistance="250" nodeId="144" materialIds="46" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMerc1" translation="10 0 -5" static="true" clipDistance="250" nodeId="145" materialIds="23" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMerc2" translation="10 0 0" static="true" clipDistance="250" nodeId="146" materialIds="81" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMerc3" translation="10 0 5" static="true" clipDistance="250" nodeId="147" materialIds="78" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMF" translation="10 0 10" static="true" clipDistance="250" nodeId="148" materialIds="75" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagMTZ" translation="10 0 15" static="true" clipDistance="250" nodeId="149" materialIds="80" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagRaba" translation="10 0 20" static="true" clipDistance="250" nodeId="150" materialIds="77" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagRenault" translation="10 0 25" static="true" clipDistance="250" nodeId="151" materialIds="79" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagSampo" translation="15 0 -25" static="true" clipDistance="250" nodeId="152" materialIds="69" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagScania1" translation="15 0 -20" static="true" clipDistance="250" nodeId="153" materialIds="76" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagScania2" translation="15 0 -15" static="true" clipDistance="250" nodeId="154" materialIds="71" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagStepa" translation="15 0 -10" static="true" clipDistance="250" nodeId="155" materialIds="73" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagSuer" translation="15 0 -5" static="true" clipDistance="250" nodeId="156" materialIds="30" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagTam" translation="15 0 0" static="true" clipDistance="250" nodeId="157" materialIds="72" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagValtra" translation="15 0 5" static="true" clipDistance="250" nodeId="158" materialIds="68" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagVolvo1" translation="15 0 10" static="true" clipDistance="250" nodeId="159" materialIds="74" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagVolvo2" translation="15 0 15" static="true" clipDistance="250" nodeId="160" materialIds="70" castsShadows="true"/>
+      <Shape shapeId="1" name="adFlagZetor" translation="15 0 20" static="true" clipDistance="250" nodeId="161" materialIds="67" castsShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

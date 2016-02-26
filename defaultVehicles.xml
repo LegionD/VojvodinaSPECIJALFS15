@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<careerVehicles>
+    <!-- nordic map starting equipment -->
+    <vehicle filename="data/vehicles/steerable/sampoRosenlew/sampoRosenlewC6.xml" xPosition="280.5" yOffset="0.5" zPosition="93" yRotation="180" dirtAmount="0.35" tourId="tourCombine"/>
+    <vehicle filename="data/vehicles/cutters/sampoRosenlew/sampoRosenlewC6.xml" xPosition="280.5" yOffset="0.5" zPosition="88.9" yRotation="180" dirtAmount="0.45"/>
+    
+    <vehicle filename="data/vehicles/steerable/huerlimann/huerlimannH488.xml" xPosition="221" yOffset="0.5" zPosition="60" yRotation="0" dirtAmount="0.5" tourId="tourTractor1"/>
+    <vehicle filename="data/vehicles/trailers/brantner/brantnerE8041.xml" xPosition="221" yOffset="0.5" zPosition="54.5" yRotation="0" dirtAmount="0.6" color="0.053 0.087 0.024 1" tourId="tourTrailer"/>
+    
+    <vehicle filename="data/vehicles/steerable/deutz/deutzAgroStar661.xml" xPosition="587" yOffset="0.5" zPosition="470" yRotation="180" dirtAmount="0.5" tourId="tourTractor2"/>
+    <vehicle filename="data/vehicles/tools/koeckerling/koeckerlingTrio300M.xml" xPosition="587" yOffset="0.5" zPosition="474.25" yRotation="180" dirtAmount="0.5" tourId="tourCultivator"/>
+    <vehicle filename="data/vehicles/tools/suer/suerSB1000.xml" xPosition="587" yOffset="0.5" zPosition="466.4" yRotation="180" dirtAmount="0.6" tourId="tourWeight1"/>
+    
+    <vehicle filename="data/vehicles/steerable/deutz/deutzAgroStar661.xml" xPosition="115" yOffset="0.5" zPosition="68" yRotation="90" dirtAmount="0.5" tourId="tourTractor3"/>
+    <vehicle filename="data/vehicles/tools/poettinger/poettingerVitasem302A.xml" xPosition="111.5" yOffset="0.5" zPosition="68" yRotation="90" dirtAmount="0.5" tourId="tourSowingMachine"/>
+    <vehicle filename="data/vehicles/tools/suer/suerSB700.xml" xPosition="118" yOffset="0.5" zPosition="68" yRotation="90" dirtAmount="0.6" tourId="tourWeight2"/>
+    
+    <vehicle filename="data/vehicles/steerable/huerlimann/huerlimannH488.xml" xPosition="-259" yOffset="0.5" zPosition="-198" yRotation="50" dirtAmount="0.5"/>
+        
+    <vehicle filename="data/vehicles/tools/kuhn/kuhnVariMaster153.xml" xPosition="179" yOffset="0.5" zPosition="142" yRotation="180" dirtAmount="0.5"/>
+    <vehicle filename="data/vehicles/tools/suer/suerSB700.xml" xPosition="179" yOffset="0.5" zPosition="114" yRotation="180" dirtAmount="0.5"/>
+    
+    <vehicle filename="data/vehicles/tools/suer/suerSB1000.xml" xPosition="191" yOffset="0.5" zPosition="57" yRotation="90" dirtAmount="0.6" tourId="tourWeight3"/>
+    <vehicle filename="data/vehicles/tools/suer/suerSB700.xml" xPosition="191" yOffset="0.5" zPosition="53" yRotation="90" dirtAmount="0.6" tourId="tourWeight4"/>
+</careerVehicles>

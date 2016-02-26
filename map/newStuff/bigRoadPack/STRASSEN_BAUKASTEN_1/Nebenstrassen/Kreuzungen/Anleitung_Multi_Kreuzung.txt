@@ -1,0 +1,28 @@
+
+
+Mit diesem Nebenstraßen Multi Kreuzungspacket kann man 24 verschiedene Kreuzungen selber bauen.
+
+Gebaut werden diese im GIANTS EDITOR.
+
+
+Es sind 6 verschieden Teile vorhanden: 
+
+1x Fahrbahn
+1x Randstreifen
+1x Abgang Nebenstraße 90 Grad
+2x Abgang Nebenstraße 45 Grad (jeweils eine Linke & Rechte)
+1x Abgang Feldweg 90 Grad abgesenkt
+
+
+Baut euch die Kreuzungen vorher fertig oder direkt auf der Map.  (wie ihr Lust habt)
+Nicht benötige Teile einfach entfernen. 
+
+
+BEISPIEL:
+
+-> Ich baue mir eine T-Kreuzung mit Abgang Nebenstraße 90 Grad
+-> Benötigt wird Fahrbahn, Randstreifen, Abgang Nebenstraße 90 Grad
+-> Die verbleibenden Teile benötigen wir nicht, können also aus dieser T-Kreuzung entfernt werden.
+
+
+
