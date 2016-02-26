@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<CustomShader version="3" classRequirement="">
+<CustomShader version="3">
+    <Parameters>
+        <Parameter name="partScale" target="partScale" type="float3"/>
+    </Parameters>
     <LodLevel startDistance="0">
-        <Parameters>
-            <Parameter name="partScale" target="partScale" type="float3"/>
-        </Parameters>
-
         <CodeInjections>
 	        <CodeInjection position="NUM_TEXCOORDS">
 <![CDATA[
@@ -16,7 +15,7 @@
             </CodeInjection>
             <CodeInjection position="MATERIALINFO">
 <![CDATA[
-float3 partScale;
+uniform float3 partScale;
 ]]>
             </CodeInjection>
             <CodeInjection position="POST_ALBEDO_FS">
@@ -29,8 +28,8 @@ albedo.xyz = lerp(albedo.xyz, albedo.xyz*partScale.xyz, albedo.w);
             <CodeInjection position="GET_REFLECTION_COLOR_FS">
 <![CDATA[
 #if defined(REFLECTION_MAP_2D) || defined(REFLECTION_MAP_CUBE)
-    float fresnel2 = max(min(getFresnel(facing, reflectionRefractionCoeffScale[0], 3.0)*0.3, 0.1), 0.075);
-	fresnel2 *= tex2D(baseMap, getTexCoords(In, globals, ALBEDOMAP_TEXCOORD)).a;
+    float fresnel2 = max(min(getFresnel(facing, cReflectionCoeff, 3.0)*0.3, 0.1), 0.075);
+	fresnel2 *= tex2D(baseMap, In.vs.ALBEDOMAP_TEXCOORD).a;
     res = lerp(oColor.xyz, getReflectionColorTex(In, globals, normal, viewDir), fresnel2);
 #endif
 ]]>
@@ -38,10 +37,6 @@ albedo.xyz = lerp(albedo.xyz, albedo.xyz*partScale.xyz, albedo.w);
         </CodeInjections>
     </LodLevel>
     <LodLevel startDistance="30">
-        <Parameters>
-            <Parameter name="partScale" target="partScale" type="float3"/>
-        </Parameters>
-
         <CodeInjections>
 	        <CodeInjection position="NUM_TEXCOORDS">
 <![CDATA[
@@ -56,7 +51,7 @@ albedo.xyz = lerp(albedo.xyz, albedo.xyz*partScale.xyz, albedo.w);
             </CodeInjection>
             <CodeInjection position="MATERIALINFO">
 <![CDATA[
-float3 partScale;
+uniform float3 partScale;
 ]]>
             </CodeInjection>
             <CodeInjection position="POST_ALBEDO_FS">

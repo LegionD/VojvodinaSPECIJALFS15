@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<CustomShader version="3" classRequirement="">
+<CustomShader version="2" classRequirement="">
     <LodLevel startDistance="0">
         <Parameters>
         </Parameters>
