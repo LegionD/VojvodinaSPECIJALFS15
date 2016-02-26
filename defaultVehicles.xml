@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <careerVehicles>
     <!-- nordic map starting equipment -->
-    <vehicle filename="data/vehicles/steerable/sampoRosenlew/sampoRosenlewC6.xml" xPosition="280.5" yOffset="0.5" zPosition="93" yRotation="180" dirtAmount="0.35" tourId="tourCombine"/>
+    <vehicle filename="data/vehicles/steerable/cars/piQup.xml" isAbsolute="true" color="0.0101 0.0101 0.0101 1" fuelFillLevel="132" cruiseControl="83" operatingTime="254.2653018074" dirtAmount="0.023543085178446">
+       <component1 position="45.209171295166 90.025520324707 -101.04821777344" rotation="-3.1241662502289 -1.5229389667511 3.1234471797943" />
+       <movingTool1 rotation="0"/>
+    </vehicle>
+    <!-- <vehicle filename="data/vehicles/steerable/sampoRosenlew/sampoRosenlewC6.xml" xPosition="280.5" yOffset="0.5" zPosition="93" yRotation="180" dirtAmount="0.35" tourId="tourCombine"/>
     <vehicle filename="data/vehicles/cutters/sampoRosenlew/sampoRosenlewC6.xml" xPosition="280.5" yOffset="0.5" zPosition="88.9" yRotation="180" dirtAmount="0.45"/>
     
     <vehicle filename="data/vehicles/steerable/huerlimann/huerlimannH488.xml" xPosition="221" yOffset="0.5" zPosition="60" yRotation="0" dirtAmount="0.5" tourId="tourTractor1"/>
@@ -21,5 +25,5 @@
     <vehicle filename="data/vehicles/tools/suer/suerSB700.xml" xPosition="179" yOffset="0.5" zPosition="114" yRotation="180" dirtAmount="0.5"/>
     
     <vehicle filename="data/vehicles/tools/suer/suerSB1000.xml" xPosition="191" yOffset="0.5" zPosition="57" yRotation="90" dirtAmount="0.6" tourId="tourWeight3"/>
-    <vehicle filename="data/vehicles/tools/suer/suerSB700.xml" xPosition="191" yOffset="0.5" zPosition="53" yRotation="90" dirtAmount="0.6" tourId="tourWeight4"/>
+    <vehicle filename="data/vehicles/tools/suer/suerSB700.xml" xPosition="191" yOffset="0.5" zPosition="53" yRotation="90" dirtAmount="0.6" tourId="tourWeight4"/> -->
 </careerVehicles>
