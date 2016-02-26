@@ -1,59 +1,649 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="21">
-    <author>My Name</author>
-    <version>1</version>
+    <author>team6</author>
+    <version>2</version>
     <title>
-        <en>Sample Mod Map</en>
-        <de>Beispiel Mod Map</de>
+        <en>Vojvodina_specijal ft. Stasenko v3.1</en>
+        <de>Vojvodina_specijal ft. Stasenko v3.1</de>
     </title>
     <description>
-        <en>Starter map.</en>
+        <en>This is no ordinary map.</en>
         <de>Dies ist die Beispiel Mod Map.</de>
     </description>
-    <iconFilename>map_icon.png</iconFilename>
+    <iconFilename>map_preview.png</iconFilename>
     <multiplayer supported="true"/>
     <l10n>
         <text name="sampleModMapBriefingText1">
-            <en>This is my new starter map for people to start editing.</en>
-            <de>Dies ist der erste Textabschnitt. Hier kann beispielsweise eine Beschreibung der Map stehen.</de>
+            <en>Culture and animals: standard + sunflower, soybean, pigs, calves, the Production of: cement, oil, bread. Delivery to the plant of sand,gravel, water, then transportation of concrete to the construction site. Oil-extraction plant (the author igor29381) which you can use to produce sunflower oil and take on the trade point draught oil in tank, Packed oil, meal and hulls. Wheat, barley, sunflower and water required for Bakery, then we take the bread in a supermarket Magnet</en>
+            <de>Culture and animals: standard + sunflower, soybean, pigs, calves, the Production of: cement, oil, bread. Delivery to the plant of sand,gravel, water, then transportation of concrete to the construction site. Oil-extraction plant (the author igor29381) which you can use to produce sunflower oil and take on the trade point draught oil in tank, Packed oil, meal and hulls. Wheat, barley, sunflower and water required for Bakery, then we take the bread in a supermarket Magnet</de>
+            <ru>Культуры и животные: стандартные + подсолнух, соя, свиньи, телята, Производство: цемента, масла, хлеба, печенья, 3 видов муки, сахара, пива, консервов, сгущёнки. Доставка к заводу песка,гравия, воды. Маслоэкстракционный завод (автор igor29381)производит подсолнечное масло. Мука пшеничная,ячменная,кукурузная и вода требуются Хлебозаводу, потом отвозим хлеб в супермаркет Магнит. Покупаемые мельницы для муки. Пивзавод Балтика(ячмень, вода и хмель покупаете и отвозите.) Сахарный завод. Консервный завод(картофель,кукуруза,соя и раст.масло). Молочный комбинат</ru>
         </text>
         <text name="sampleModMapBriefingText2">
-            <en>Because all the i3d files have been deleted, i have made this map with 1 of every object, for you's to edit this map with original objects.</en>
-            <de>Dies ist der zweite Textabschnitt.</de>
+            <en>Pedestrians, traffic, extra missions, horseshoes, train and supsun, fly the airplane and balloon, butterflies. Self milk, many fields on sale (one is given at the start), rot included + to realism. Mods for sale manure thick and thin. The pallet for wool. The station feed mixing. Animals can drink. A great many all around, there is no feeling that something steppe go. The city centre is made in the Palace style, beautiful building, in the cafe plays great music.</en>
+            <de>Pedestrians, traffic, extra missions, horseshoes, train and supsun, fly the airplane and balloon, butterflies. Self milk, many fields on sale (one is given at the start), rot included + to realism. Mods for sale manure thick and thin. The pallet for wool. The station feed mixing. Animals can drink. A great many all around, there is no feeling that something steppe go. The city centre is made in the Palace style, beautiful building, in the cafe plays great music.</de>
+            <ru>производит сгущёнку из молока и сахара. Пешеходы, траффик, доп миссии, подковы, поезд, летает самолёт и воздушный шар, бабочки, плавают утки, рыбы. Самовывоз молока, много полей в продаже (одно при старте), гниение включено + к реализму. Моды на продажу навоза густого и жидкого. Палеты для шерсти. Станция смешивания кормов. Животных можно поить. Огромное множество всего вокруг, нет ощущения что по какой то степи едешь. Центр города сделан в дворцовом стиле, красивейшие здания, в кафе играет отличная музычка. Cоборы, триумфальная арка, колоннада.</ru>
         </text>
         <text name="sampleModMapBriefingText3">
-            <en>You can also import objects, just to make the best farm map you can edit. Have fun.</en>
-            <de>Dies ist der dritte Textabschnitt.</de>
+            <en>The Cathedral, triumphal arch, colonnade, Alexander column, the Park around the centre, holiday village on the outskirts, the area is rich with steep houses, a cemetery, a mountain pass with a cave in the rock, ruined medieval castle, greenhouses complexes, high-quality design, luxury forests, mountains, the different sounds of nature, traffic lights, Real refills LUKOIL, Rosneft. Icons with tips. Purchased and improve the facilities and plants! All this makes the game very fun and interesting!</en>
+            <de>The Cathedral, triumphal arch, colonnade, Alexander column, the Park around the centre, holiday village on the outskirts, the area is rich with steep houses, a cemetery, a mountain pass with a cave in the rock, ruined medieval castle, greenhouses complexes, high-quality design, luxury forests, mountains, the different sounds of nature, traffic lights, Real refills LUKOIL, Rosneft. Icons with tips. Purchased and improve the facilities and plants! All this makes the game very fun and interesting!</de>
+            <ru>Александрийская колонна, парк около центра, дачный посёлок на окраине, район богачей с крутыми коттеджами, кладбище, горный перевал с пещерой в скале, средневековый разрушенный замок, покупаемые комплексы теплиц качественно оформленные, шикарные леса, горы, различные звуки природы, cветофоры, Реальные заправки Лукойл, Роснефть. Значки с подсказками. Покупаемые и улучшаемые объекты и заводы! Всё это делает игру очень увлекательной и интересной! Карта насыщена объектами, поэтому грузится долго. Приятной вам игры...</ru>
         </text>
-        <!-- chopped Straw l10n -->
-        <text name="choppedStraw">
-          <en>Chopped Straw</en>
-          <de>Geh�ckseltes Stroh</de>
+		<text name="manure"> 
+            <en>manure</en> 
+            <de>Mist</de> 
+            <ru>Навоз</ru> 
+		</text>
+		<text name="liquidManure"> 
+            <en>liquid Manure</en> 
+            <de><![CDATA[Gülle]]></de> 
+            <ru>Жидкий Навоз</ru>
+		</text>
+		<text name="sunflower"> 
+            <en>Sunflower</en> 
+            <de>Sonnenblumen</de> 
+            <ru>Подсолнечник</ru> 
         </text>
-        <text name="choppedMaize">
-          <en>Chopped maize</en>
-          <de>Geh�ckselter Mais</de>
+	    <text name="soybean"> 
+            <en>Soybean</en> 
+            <de>Soja</de> 
+            <ru>Соя</ru> 
         </text>
-        <text name="choppedRape">
-          <en>Chopped rape</en>
-          <de>Geh�ckselter Raps</de>
+	    <text name="hops"> 
+            <en>Hops</en> 
+            <de>Hops</de> 
+            <ru>Хмель</ru> 
+        </text>
+		<text name="bread"> 
+            <en>Bread</en> 
+            <de>Brot</de> 
+            <ru>Выпечка</ru> 
+        </text>
+		<text name="beer"> 
+            <en>Beer</en> 
+            <de>Beer</de> 
+            <ru>Пиво</ru> 
+        </text>
+		<text name="canning"> 
+            <en>Canning</en> 
+            <de>Konserven</de> 
+            <ru>Консервы</ru> 
+        </text>
+		<text name="wheatflour"> 
+            <en>wheatflour</en> 
+            <de>wheatflour</de> 
+            <ru>Мука пшеничн.</ru> 
+        </text>
+		<text name="barleyflour"> 
+            <en>barleyflour</en> 
+            <de>barleyflour</de> 
+            <ru>Мука ячменная</ru> 
+        </text>
+		<text name="maizeflour"> 
+            <en>maizeflour</en> 
+            <de>maizeflour</de> 
+            <ru>Мука кукурузн.</ru> 
+        </text>
+		<text name="bran"> 
+            <en>bran</en> 
+            <de>bran</de> 
+            <ru>Отруби</ru> 
+        </text>
+		<text name="sugar"> 
+            <en>Sugar</en> 
+            <de>Sugar</de> 
+            <ru>Сахар</ru> 
+        </text>
+		<text name="sweetmilk"> 
+            <en>sweetmilk</en> 
+            <de>sweetmilk</de> 
+            <ru>Сгущёнка</ru> 
+        </text>
+	    <text name="sand"> 
+            <en>Sand</en> 
+            <de>Sand</de> 
+            <ru>Песок</ru> 
+        </text>
+		<text name="gravel"> 
+            <en>Gravel</en> 
+            <de>Kies</de> 
+            <ru>Гравий</ru> 
+        </text>
+	    <text name="water">	
+            <en>Water</en> 
+            <de>Wasser</de> 
+            <ru>Вода</ru> 
+        </text>
+		<text name="concrete"> 
+            <en>Concrete</en> 
+            <de>Beton</de> 
+            <ru>Цемент</ru> 
+        </text>
+		<text name="konditer"> 
+            <en>konditer</en> 
+            <de>konditer</de> 
+            <ru>Печенье</ru> 
+        </text>
+        <text name="Vokzal"> 
+            <en>terminal</en> 
+            <de>terminal</de> 
+            <ru><![CDATA[Вокзал]]></ru> 
+        </text>
+        <text name="Magnit"> 
+            <en>Market</en> 
+            <de>Market</de> 
+            <ru><![CDATA[Магнит]]></ru> 
+        </text>
+        <text name="Ambar"> 
+            <en>Ambar</en> 
+            <de>Ambar</de> 
+            <ru><![CDATA[Амбар]]></ru> 
+        </text>
+        <text name="Chipsy"> 
+            <en>Chipsy</en> 
+            <de>Chipsy</de> 
+            <ru><![CDATA[Чипсы]]></ru> 
+        </text>
+        <text name="Elevator"> 
+            <en>Elevator</en> 
+            <de>Elevator</de> 
+            <ru><![CDATA[Элеватор]]></ru> 
+        </text>
+        <text name="construction"> 
+            <en>construction</en> 
+            <de>construction</de> 
+            <ru><![CDATA[Новостройка]]></ru> 
+        </text>
+		<text name="MischStation"> 
+            <en>mixing plant</en> 
+            <de>Misch Station</de> 
+            <ru>Смеситель комбикорма</ru> 
+        </text>
+        <text name="Voll"> 
+            <en>Mixing tank full</en> 
+            <de>Mischbehälter voll</de> 
+        </text>
+        <text name="SiloLeer"> 
+            <en>silo empty</en> 
+            <de>Silo leer</de> 
+            <ru>Склад пуст</ru> 
+        </text> 
+        <text name="WheatWind"> 
+            <en>wheatWind</en> 
+            <de>wheatWind</de> 
+            <ru>Мельница пшеницы</ru> 
+        </text>
+        <text name="BarleyWind"> 
+            <en>BarleyWind</en> 
+            <de>BarleyWind</de> 
+            <ru>Мельница ячменя</ru> 
+        </text>
+        <text name="MaizeWind"> 
+            <en>MaizeWind</en> 
+            <de>MaizeWind</de> 
+            <ru>Мельница кукурузы</ru> 
+        </text>
+        <text name="ConcreteFactory"> 
+            <en>ConcreteFactory</en> 
+            <de>ConcreteFactory</de> 
+            <ru>Цементный завод</ru> 
+        </text>
+        <text name="BreadFactory"> 
+            <en>BreadFactory</en> 
+            <de>BreadFactory</de> 
+            <ru>Хлебокомбинат</ru> 
+        </text>
+        <text name="BeerFactory"> 
+            <en>BeerFactory</en> 
+            <de>BeerFactory</de> 
+            <ru>Пивзавод</ru> 
+        </text>
+        <text name="CanningFactory"> 
+            <en>CanningFactory</en> 
+            <de>CanningFactory</de> 
+            <ru>Консервный завод</ru> 
+        </text>
+        <text name="SugarFactory"> 
+            <en>SugarFactory</en> 
+            <de>SugarFactory</de> 
+            <ru>Сахарный завод</ru> 
+        </text>
+        <text name="MilkFactory"> 
+            <en>MilkFactory</en> 
+            <de>MilkFactory</de> 
+            <ru>Молочный комбинат</ru> 
+        </text>
+        <text name="MeetFabrik"> 
+            <en>MeetFabrik</en> 
+            <de>MeetFabrik</de> 
+            <ru>Мясокомбинат</ru> 
+        </text>
+		<text name="pig"> 
+            <en>pig</en> 
+            <de>Schwein</de> 
+            <ru>Свиньи</ru>
+        </text>
+		<text name="pig_amount"> 
+            <en>pigs</en> 
+            <de>Schweinebestand</de> 
+            <ru>Свиньи</ru>
+        </text>
+		<text name="beef">
+            <en>beef</en> 
+            <de>Rind</de> 
+            <ru>Телята</ru>
+        </text>
+		<text name="beef_amount">
+            <en>beefs</en> 
+            <de>Rinderbestand</de> 
+            <ru>Телята</ru>
+        </text>
+		<text name="grain_fruits"> 
+            <en>grain</en> 
+            <de>Getreide</de> 
+            <ru>Зерно</ru>
+        </text>
+		<text name="earth_fruits">
+            <en>earth fruits</en> 
+            <de>Erdfrüchte</de> 
+            <ru>Корнеплоды</ru>
+        </text>
+		<text name="Silo_fruits">
+            <en>silage</en> 
+            <de>Silofutter</de> 
+            <ru>Силос</ru>
+        </text>
+		<text name="cowChildren">
+            <en>Calves</en> 
+            <de>Kalb</de>
+        </text>
+		<text name="sheepChildren"> 
+            <en>Lamb</en> 
+            <de>Lamm</de>
+        </text>
+		<text name="chickenChildren">
+            <en>Chicken</en> 
+            <de>Küken</de>
+        </text>
+	    <text name="seed_oil">
+            <en>seed_oil</en> 
+            <de>seed_oil</de> 
+            <ru>Подсолн. масло</ru>
+        </text>
+	    <text name="packed_seed_oil">
+            <en>packed_seed_oil</en> 
+            <de>packed_seed_oil</de> 
+            <ru>Фасован. масло</ru>
+        </text>
+	    <text name="oilcake">
+            <en>Oilcake</en> 
+            <de>Oilcake</de> 
+            <ru>Жмых</ru>
+        </text>
+	    <text name="husk">
+            <en>Husk</en> 
+            <de>Husk</de> 
+            <ru>Лузга</ru>
+        </text>
+        <text name="ALLINONESILO_FRUCHT">
+            <en>AllInOneSilo Fill Type</en> 
+            <de>AllInOneSilo Frucht Sorte</de>
+        </text>
+		<text name="ALLINONESILO_SILOBUY">
+            <en>AllInOneSilo Silo Buy</en> 
+            <de>AllInOneSilo Silo Kaufen</de>
+        </text>
+	    <text name="ALLINONESILO_START">
+            <en>AllInOneSilo Start Stop</en> 
+            <de>AllInOneSilo Start Stop</de>
+        </text>
+        <text name="DR_0">
+            <en>Late, working up to 18 hours</en>
+            <de>Spät, arbeiten bis zu 18 Stunden</de>
+			<ru>Опоздал, работаем до 18 часов</ru>			
+        </text>			
+        <text name="DR_1">
+            <en>It's early, working the hours of 8</en>
+            <de>Es ist früh, arbeiten die Stunden von 8</de>
+			<ru>Рановато, работаем с 8 часов</ru>			
+        </text>			
+        <text name="DR_2">
+            <en>Lunch hour</en>
+            <de>Mittagspause</de>
+			<ru>Браток, у меня обед</ru>			
+        </text>	
+        <text name="D_0">
+            <en>Transportation is not for sand</en>
+            <de>Der Transport ist nicht für Sand</de>
+			<ru>Транспорт не предназначен</ru>			
+        </text>	
+        <text name="D_1">
+            <en>loading is complete</en>
+            <de>Laden abgeschlossen ist</de>
+			<ru>Погрузка завершена</ru>			
+        </text>	
+
+        <text name="EM_CARGO">
+            <en>Waiting for fast freight!</en>
+            <ru>Нужен срочный груз!</ru>
+        </text> 
+        <text name="EM_PLASE">
+            <en>Plase: </en>
+            <ru>Заказчик: </ru>
+        </text> 
+        <text name="EM_FILLTYPE">
+            <en>Filltype: </en>
+            <ru>Груз: </ru>
+        </text> 
+        <text name="EM_LITERS">
+            <en>Liters: </en>
+            <ru>Объем, л: </ru>
+        </text> 
+        <text name="EM_PRICE">
+            <en>Price: </en>
+            <ru>Цена: </ru>
+        </text> 
+        <text name="EM_TIME">
+            <en>Time: </en>
+            <ru>Время: </ru>
+        </text> 
+        <text name="EM_OK">
+            <en>F3: Take order</en>
+            <ru>клав. F3: Принять заказ</ru>
+        </text> 
+        <text name="EM_CANCEL">
+            <en>F4: Cancel</en>
+            <ru>клав. F4: Отказаться</ru>
+        </text> 
+        <text name="EM_DONE">
+            <en>Mission successfully done!</en>
+            <ru>Груз успешно доставлен!</ru>
+        </text> 
+        <text name="EM_PENALTY">
+            <en>Mission failed!</en>
+            <ru>Задание просрочено!</ru>
+        </text> 
+        <text name="EM_MONEY">
+            <en>Your money:</en>
+            <ru>Ваш заработок:</ru>
+        </text> 
+        <text name="EM_PDA">
+            <en>[$/T] / capacity</en>
+            <ru>[$/T] / требуется, л</ru>
+        </text> 
+
+        <text name="start">
+            <en>1</en><de>1</de><ru>Приветствие</ru>
+        </text>
+        <text name="bunker">
+            <en>1</en>
+            <de>1</de>
+            <ru>Хранилище культур</ru>
+        </text>
+        <text name="cows">
+            <en>1</en>
+            <de>1</de>
+            <ru>Коровы и молоко</ru>
+        </text>
+        <text name="cheep">
+            <en>1</en>
+            <de>1</de>
+            <ru>Овцы и шерсть</ru>
+        </text>
+        <text name="chicken">
+            <en>1</en>
+            <de>1</de>
+            <ru>Куры и яйцо</ru>
+        </text>
+        <text name="potato">
+            <en>1</en>
+            <de>1</de>
+            <ru>Склад картофеля и сахарной свеклы</ru>
+        </text>
+        <text name="field">
+            <en>1</en>
+            <de>1</de>
+            <ru>Поле N25 в собственности</ru>
+        </text>
+        <text name="mix">
+            <en>1</en>
+            <de>1</de>
+            <ru>Смеситель кормов</ru>
+        </text>
+        <text name="milk">
+            <en>1</en>
+            <de>1</de>
+            <ru>Молзавод</ru>
+        </text>
+        <text name="stroyka">
+            <en>1</en>
+            <de>1</de>
+            <ru>Стройка</ru>
+        </text>
+        <text name="seed">
+            <en>1</en>
+            <de>1</de>
+            <ru>Семена</ru>
+        </text>
+        <text name="fert">
+            <en>1</en>
+            <de>1</de>
+            <ru>Удобрения</ru>
+        </text>
+        <text name="silos">
+            <en>1</en>
+            <de>1</de>
+            <ru>Силосная яма</ru>
+        </text>
+        <text name="bga">
+            <en>1</en>
+            <de>1</de>
+            <ru>Станция по производству биогаза (BGA)</ru>
+        </text>
+        <text name="wool">
+            <en>1</en>
+            <de>1</de>
+            <ru>Шерсть и тюки</ru>
+        </text>
+        <text name="meet">
+            <en>1</en>
+            <de>1</de>
+            <ru>Мясокомбинат</ru>
+        </text>
+        <text name="oil">
+            <en>1</en>
+            <de>1</de>
+            <ru>Маслоэкстракционный завод</ru>
+        </text>
+        <text name="apig">
+            <en>1</en>
+            <de>1</de>
+            <ru>Свиноферма</ru>
+        </text>
+        <text name="abeef">
+            <en>1</en>
+            <de>1</de>
+            <ru>Ферма для телят</ru>
+        </text>
+        <text name="amanure">
+            <en>1</en>
+            <de>1</de>
+            <ru>Покупка навоза</ru>
+        </text>
+        <text name="teplici">
+            <en>1</en>
+            <de>1</de>
+            <ru>Теплицы не продаются</ru>
         </text>
 
-        </l10n>
+        <text name="info01">
+            <en>Wellcome.  Info-Icons mades for Russian Version of game. If you want - You can Translate all  prompt (Help Icons), And download in Internet.</en>
+            <de>Wellcome.  Info-Icons mades for Russian Version of game. If you want - You can Translate all  prompt (Help Icons), And download in Internet.</de>
+            <ru>Добро пожаловать на многофункциональную карту VojvodinaSPECIJAL ft. Stasenko. Тут всегда есть чем заняться. Очень огромный выбор разнообразия, заданий и остального. Если Вы нажали В и выбрали игру с покупаемыми объектами, то Вы правильно сделали, так намного интереснее будет играть, развиваться и будет к чему стремиться. Далее в процессе Вы ещё будете встречать подсказки. Приятной Вам игры!</ru>
+        </text>
 
-        <extraSourceFiles>
-             <sourceFile filename="map/choppedStraw/fruits.lua" />
-        </extraSourceFiles>
+        <text name="info02">
+            <en>In these bunkers you can store grain harvest. To pick up grain from hopper podedte under loading tube and select the desired culture.</en>
+            <de>In diesen Bunkern Sie Getreideernte speichern kann. Um aus dem Trichter podedte abholen Korn unter Laderohr und wahlen den gewunschten Kultur.</de>
+            <ru>В этих бункерах вы можете хранить урожай зерновых культур. Чтобы забрать зерно из бункера, подъедьте под загрузочную трубу соответствующей культуры. Здесь находятся хранилища для пшеницы, ячменя, канолы и кукурузы.  Также у вас есть второй склад для хранения подсолнечника и сои. Он находится на юге около свинофермы. Смотрите карту, клавиша I или Ш</ru>
+        </text>
 
+        <text name="info03">
+            <en>cows.</en>
+            <de>cows.</de>
+            <ru>Загон для коров. Коровам нужен корм: сено(трава), солома(отходы пшеницы, ячменя), силос, кормовая смесь и вода. Не обязательно всё и сразу. Можно начать поить и кормить своих коров хотя бы травой и соломой. 
+            На начальных этапах игры будет невозможно иметь и обслуживать коров, т.к. для этого нужна различная техника: сенокосилка, фуражный прицеп-подборщик сена и соломы, погрузчик для выгрузки силоса, молоковоз. Когда коровы будут сыты - они станут давать много молока, которое с помощью молочной цистерны надо отвозить на молзавод на проспекте Победы в центре города.</ru>
+        </text>
+
+        <text name="info04">
+            <en>cheep.</en>
+            <de>cheep.</de>
+            <ru>После приобретения овец, их автоматически начнут стричь и здесь будут наполняться поддоны с шерстью. Кормите и поите ваших овец и продуктивность будет высокой. Шерсть принимают в прядильне, см. значок на карте Клубок. Чтобы корректно сработал погрузчик при захвате поддона - надо дождаться, пока поддон полностью наполнится, отодвинется и его место займёт следующий поддон.</ru>
+        </text>
+
+        <text name="info05">
+            <en>chicken.</en>
+            <de>chicken.</de>
+            <ru>После приобретения кур, они начинают нести яйца. Собирайте их вручную. Продать их можно В Магните, либо в магазине на перекрёстке улиц Пушкина и Ленина. Куры сами находят что поклевать, поэтому если вы их покормите, то продуктивность повысится совсем не намного, всего на 10%.</ru>
+        </text>
+
+        <text name="info06">
+            <en>potato.</en>
+            <de>potato.</de>
+            <ru>Здесь хранятся ваши картофель и сахарная свекла. Выгружайте сюда собранный урожай. Загрузить прицеп, чтобы поехать продать, можно при помощи погрузчика, но проще всего - это подвезти прицеп под ленту конвейера.</ru>
+        </text>
+
+        <text name="info07">
+            <en>field.</en>
+            <de>field.</de>
+            <ru>Это ваше первое поле. Обрабатывайте его, собирайте урожай и складируйте в хранилище на своей ферме. Чтобы продать по более выгодной цене дождитесь большого спроса(клавиша I, 9). Продавайте по выгодной цене, копите деньги, богатейте, покупайте различную технику, живность, поля, заводы.   Если вы прочли все подсказки и забыли что к чему - начните новую игру в другом сохранном слоте.</ru>
+        </text>
+
+        <text name="info08">
+            <en>mix.</en>
+            <de>mix.</de>
+            <ru>Станция смешивания кормов. Выгружаем траву, солому и силос. Спустя время будет изготовлена смесь, дающая высокую продуктивность овцам, коровам, свиньям и телятам.</ru>
+        </text>
+
+        <text name="info09">
+            <en>milk.</en>
+            <de>milk.</de>
+            <ru>С помощью молочной цистерны привозите сюда и продавайте коровье молоко. У этого молзавода нет своего молоковоза, поэтому надо самостоятельно.</ru>
+        </text>
+
+        <text name="info10">
+            <en>concreteNeed.</en>
+            <de>concreteNeed.</de>
+            <ru>Этой стройке необходим раствор цемента. Если вы приобретёте цементный завод, то сможете производить раствор и привозить его сюда на продажу. Дело выгодное.</ru>
+        </text>
+
+        <text name="info11">
+            <en>seed.</en>
+            <de>seed.</de>
+            <ru>Около таких поддонов с мешками семян Вы можете наполнять свои сеялки. Нажмите R и покупка начнётся.</ru>
+        </text>
+
+        <text name="info12">
+            <en>fertilizer.</en>
+            <de>fertilizer.</de>
+            <ru>Около подобных мешков и резервуаров вы можете наполнять распылители удобрений. Нажмите R, чтобы приобрести удобрения. Если покупка не началась, проверьте, какая сцепка активна, передняя или задняя.</ru>
+        </text>
+
+        <text name="info13">
+            <en>silos.</en>
+            <de>silos.</de>
+            <ru>В силосную яму выгружаете кормовую кукурузу, либо траву, прессуете трактором и когда будет наполнена минимум на 10%,накрываете брезентом и спустя несколько часов будет готов силос(насыщенный ферментами полезный корм). С помощью погрузчика его выгружаете в кормушки коровам и овцам. Также он необходим при создании кормовой смеси, станция для её изготовления находится в центре города, либо можно приобрести небольшую самоходную смесительную машину.</ru>
+        </text>
+
+        <text name="info14">
+            <en>bga.</en>
+            <de>bga.</de>
+            <ru>Привозите кормовую кукурузу или траву. Наполненность должна составлять хотя бы 10%, После ферментации высыпаете готовый силос погрузчиком в специальный отсек, возле бункеров для брожения смеси и отходов. Во-первых вы получаете деньги от продажи силоса, во-вторых вырабатываются жидкие удобрения, которыми можно заправить цистерну для разбрасывания жидкого навоза и органических удобрений.</ru>
+        </text>
+
+        <text name="info15">
+            <en>wool.</en>
+            <de>wool.</de>
+            <ru>Здесь находится прядильня, она будет закупать у вас овечью шерсть. Чуть дальше на территории фабрики пункт по приёму тюков сена и соломы. Подсказка: солому от пшеницы и ячменя можно сразу прессовать в тюки. Но вот траву нельзя, а то сгниёт. Надо сначала переворошить, т.е.пересушить её сеноворошилкой, а потом только прессовать в тюки.</ru>
+        </text>
+
+        <text name="info16">
+            <en>meet.</en>
+            <de>meet.</de>
+            <ru>В специальном прицепе привозите сюда свиней и телят на продажу. Фермы с телятами и свиньями на карте обозначены серыми иконками.</ru>
+        </text>
+
+        <text name="info17">
+            <en>oil.</en>
+            <de>oil.</de>
+            <ru>Выгружаете подсолнечник, ждёте пока идёт производство масла. Меню всех заводов - клавиша "Меню", справа от пробела, около Ctrl. Чтобы загрузить разливное масло - нужно подвезти специальную цистерну под манипулятор около завода и вручную попасть трубой манипулятора в люк цистерны. Чтобы забрать фасованное масло нужна фура и подъехать на ней задом к эстакаде с ящиками за воротами. Чтобы загрузить жмых и лузгу подведите прицеп под соответствующую трубу на заводе.</ru>
+        </text>
+
+        <text name="info18">
+            <en>apig.</en>
+            <de>apig.</de>
+            <ru>Здесь находится ваш свинарник.  Свиней можно приобрести в магазине. Купите несколько свиней, поите их и кормите хорошо, тогда они начнут плодиться. Когда родятся и подрастут поросята, можно будет отвезти их на мясокомбинат. Чуть-чуть жестоко, но такова жизнь!</ru>
+        </text>
+
+        <text name="info19">
+            <en>abeef.</en>
+            <de>abeef.</de>
+            <ru>Купите несколько телят, поите их и кормите, тогда они начнут плодиться. Когда родятся и подрастут телята, можно будет отвезти их на мясокомбинат.</ru>
+        </text>
+
+        <text name="info20">
+            <en>amanure.</en>
+            <de>amanure.</de>
+            <ru>Здесь у Вас купят густой навоз, нужный для удобрения полей и теплиц. На другой стороне реки, где находятся теплицы, у Вас приобретут жидкий навоз. А также отруби, лузгу и жмых сахара и подсолнечника.</ru>
+        </text>
+
+        <text name="info21">
+            <en>notsale.</en>
+            <de>notsale.</de>
+            <ru>Не задавайтесь вопросом как купить эти теплицы. Они не продаются, у них есть владелец.   Через дорогу можно купить хмель, он требуется пивзаводу для производства пива. Подъедьте под трубу соответствующим кузовом, который перевозит хмель и нажмите Z.</ru>
+        </text>
+
+    </l10n>
+	
+	<extraSourceFiles>
+	<!-- <sourceFile filename="map/shaders/GMM_Reg.lua"/>
+	<sourceFile filename="map/WoolPaletteCollector/WoolPaletteCollector.lua"/>
+	<sourceFile filename="map/Water/WaterMod.lua"/>
+	<sourceFile filename="map/shaders/Waage.lua"/>
+	<sourceFile filename="map/shaders/MischStation.lua"/>
+	<sourceFile filename="map/shaders/zugschranke.lua" />
+	<sourceFile filename="map/shaders/DigitalAmountMover.lua" />
+	<sourceFile filename="map/models/buildings/SchweineMast/RegFillTypes.lua"/>
+	<sourceFile filename="map/models/buildings/SchweineMast/SchweineZucht.lua"/>
+	<sourceFile filename="map/shaders/oilPump.lua" />
+	<sourceFile filename="scripts/Pogruzka.lua" />
+	<sourceFile filename="scripts/Pogruzka2.lua" />
+	<sourceFile filename="scripts/fruitRegister.lua" />
+	<sourceFile filename="scripts/LiveTicker.lua" />
+	<sourceFile filename="scripts/SearchBuyableObjectScript.lua"/>
+	<sourceFile filename="scripts/InfoTrigger.lua"/>
+	<sourceFile filename="scripts/AllInOneSilo.lua"/>
+	<sourceFile filename="scripts/ExtraMissionTipTrigger.lua"/>
+	<sourceFile filename="scripts/FillTypeForSiloTrigger.lua"/> -->
+	</extraSourceFiles>
+	
+	<inputBindings>
+        <input name="ALLINONESILO_FRUCHT" key1="KEY_o" button="" />
+	    <input name="ALLINONESILO_SILOBUY" key1="KEY_x" button="" />
+	    <input name="ALLINONESILO_START" key1="KEY_z" button="" />
+        <input name="EXTRAMISSION_OK" key1="KEY_f3" button="" /> 
+        <input name="EXTRAMISSION_OUT" key1="KEY_f4" button="" /> 
+	</inputBindings>
+	
     <maps>
         <map id="SampleModMap" className="SampleModMap" filename="SampleModMap.lua" defaultVehiclesXMLFilename="defaultVehicles.xml">
             <title>
-                <en>Sample Mod Map</en>
-                <de>Beispiel Mod Map</de>
+                <en>Vojvodina_specijal ft. Stasenko v3.1</en>
+                <de>Vojvodina_specijal ft. Stasenko v3.1</de>
             </title>
             <description>
-                <en>This is the sample mod map.</en>
-                <de>Dies ist die Beispiel Mod Map.</de>
+                <en>Thank you for choosing our map. Team 6 wishes you a pleasant game.</en>
+                <de>Vielen Dank für die Wahl unseres Verzeichnisses. 6 Team wünscht Ihnen ein schönes Spiel.</de>
+                <ru>Благодарим Вас за выбор нашей карты. На ней огромное количество возможностей, скучать не придётся. Вы не пожалеете!</ru>
             </description>
             <briefingImagePrefix>sampleModMap</briefingImagePrefix>
             <briefingTextPrefix>sampleModMap</briefingTextPrefix>
